@@ -5,8 +5,8 @@ const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const cvUrl = "/Muhammadibrahim.pdf";
-  const agencyUrl = "https://devvortex-co.netlify.app";
+  const cvUrl = "#";
+const agencyUrl = "https://www.seyonix.in";
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -34,8 +34,8 @@ const Navbar: React.FC = () => {
           className="flex items-center gap-3 cursor-pointer group shrink-0"
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
-          <div className="w-10 h-10 bg-white text-black flex items-center justify-center font-bold text-lg rounded-xl transition-all group-hover:bg-brand-primary group-hover:text-white shadow-lg">MI</div>
-          <span className="font-display font-bold text-white tracking-tight text-lg hidden sm:block">Ibrahim</span>
+          <div className="w-10 h-10 bg-white text-black flex items-center justify-center font-bold text-lg rounded-xl transition-all group-hover:bg-brand-primary group-hover:text-white shadow-lg">YR</div>
+          <span className="font-display font-bold text-white tracking-tight text-lg hidden sm:block">Yuvaraj</span>
         </div>
 
         <div className="hidden lg:flex items-center gap-8">
@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
             rel="noopener noreferrer"
             className="text-[10px] font-bold tracking-widest text-brand-primary uppercase px-3 py-1 bg-brand-primary/10 rounded-full border border-brand-primary/20 hover:bg-brand-primary hover:text-white transition-all"
           >
-            Agency Home
+            SEYONIX
           </a>
           {['About', 'Projects', 'Skills', 'Experience'].map((item) => (
             <button
@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
             onClick={(e) => scrollToSection(e, 'contact')}
             className="px-4 sm:px-5 py-2.5 bg-brand-primary text-white font-bold text-xs rounded-xl hover:bg-brand-secondary transition-all active:scale-95 shadow-lg shadow-brand-primary/20 shrink-0"
           >
-            Hire Me
+           Let's Connect
           </button>
 
           <button 
@@ -91,9 +91,9 @@ const Navbar: React.FC = () => {
           rel="noopener noreferrer"
           className="text-3xl font-display font-bold text-brand-primary"
         >
-          DevVortex Agency
+          SEYONIX
         </a>
-        {['About', 'Projects', 'Skills', 'Experience', 'Contact'].map((item) => (
+        {['Founder', 'Expertise', 'Journey', 'Contact'].map((item) => (
           <button
             key={item}
             onClick={(e) => scrollToSection(e, item.toLowerCase())}
@@ -108,7 +108,7 @@ const Navbar: React.FC = () => {
           rel="noopener noreferrer"
           className="text-2xl font-display font-bold text-white hover:text-brand-primary transition-all flex items-center gap-3"
         >
-          View Resume <Icons.FileText />
+          Founder Profile <Icons.FileText />
         </a>
       </div>
     </>
