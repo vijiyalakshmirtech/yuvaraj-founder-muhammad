@@ -18,7 +18,7 @@ const CertificationTimeline: React.FC = () => {
                 cert.status === 'in-progress' ? 'text-brand-primary border-brand-primary/20 bg-brand-primary/5' : 
                 'text-neutral-600 border-neutral-800'
               }`}>
-                {cert.status === 'completed' ? 'Verified' : cert.status === 'in-progress' ? 'In Progress' : 'Upcoming'}
+                {cert.status === 'completed' ? 'Recognized' : cert.status === 'in-progress' ? 'Learning' : 'Future Focus'}
               </span>
               <span className="text-[10px] font-bold text-neutral-600 uppercase tracking-widest">{cert.date}</span>
             </div>
