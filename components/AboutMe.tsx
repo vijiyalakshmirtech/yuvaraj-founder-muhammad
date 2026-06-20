@@ -17,16 +17,14 @@ const AboutMe: React.FC = () => {
               <span className="w-1.5 h-1.5 rounded-full bg-brand-primary animate-pulse"></span>
               <span className="text-brand-primary text-[10px] font-bold tracking-widest uppercase">Professional Founder</span>
             </div>
-            <div className="inline-flex items-center gap-3 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20">
-              <span className="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse"></span>
-              <span className="text-orange-500 text-[10px] font-bold tracking-widest uppercase">Scrimba Ambassador</span>
-            </div>
           </div>
           
-          <h2 className="font-display font-bold text-5xl md:text-7xl text-white tracking-tight leading-[1.1]">
-           Founder Profile.<br/>
-            <span className="text-neutral-500 text-4xl md:text-5xl">Founder Profile.</span>
-          </h2>
+<h2 className="font-display font-bold text-5xl md:text-7xl text-white tracking-tight leading-[1.1]">
+ About Me.<br/>
+ <span className="text-neutral-500 text-4xl md:text-5xl">
+ Entrepreneur • AI Growth Architect
+ </span>
+</h2>
 
           {/* Profile Spotlight (Mobile and Inline) */}
           <div className="lg:hidden w-full mb-10">
@@ -88,7 +86,7 @@ Today, his focus remains on creating practical, high-impact solutions that bridg
               {/* Floating Name Badge */}
               <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-brand-dark/40 backdrop-blur-md border border-white/10 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
                 <p className="text-white font-display font-bold text-lg">Yuvaraj Ramalingam</p>
-                <p className="text-brand-primary text-[10px] font-bold uppercase tracking-widest">Founder • Entrepreneur • Digital Growth Strategist</p>
+                <p className="text-brand-primary text-[10px] font-bold uppercase tracking-widest">Founder • AI Growth Architect • Entrepreneur</p>
               </div>
             </div>
           </div>
@@ -97,19 +95,21 @@ Today, his focus remains on creating practical, high-impact solutions that bridg
           <div className="relative group overflow-hidden card-premium p-8 rounded-2xl border-brand-primary/50 bg-gradient-to-br from-brand-primary/20 to-transparent">
              <div className="relative z-10 flex flex-col gap-5">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-white text-black flex items-center justify-center font-bold text-xl shadow-lg">DV</div>
+                  <div className="w-12 h-12 rounded-xl bg-white text-[#0E2F76] flex items-center justify-center font-bold text-xl shadow-lg">
+YR
+</div>
                   <div>
                     <h4 className="text-white font-bold text-lg leading-tight">SEYONIX</h4>
-                    <span className="text-[10px] text-brand-primary font-bold tracking-widest uppercase">AI Powered Growth Agency</span>
+                    <span className="text-[10px] text-brand-primary font-bold tracking-widest uppercase">WHERE CREATIVITY MEETS TECHNOLOGY</span>
                   </div>
                 </div>
                 
                 <p className="text-neutral-400 text-xs leading-relaxed">
-                 AI Powered Ad Videos, Branding, Digital Marketing, Website Development and Business Growth Solutions.
+                 AI Powered Ad Videos, AI Posters, Branding, Website Development, Digital Marketing and Business Growth Systems for modern businesses.
                 </p>
 
                 <a 
-                  href="https://devvortex-co.netlify.app" 
+                  href="https://www.seyonix.in"
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-full py-4 bg-white text-black text-center font-bold text-[10px] uppercase tracking-widest rounded-xl hover:bg-brand-primary hover:text-white transition-all shadow-xl flex items-center justify-center gap-2"
@@ -120,27 +120,8 @@ Today, his focus remains on creating practical, high-impact solutions that bridg
              </div>
           </div>
 
-                    <div className="card-premium p-6 rounded-2xl">
-            <h4 className="text-white font-bold text-sm uppercase tracking-widest mb-4 opacity-50">Global Hire</h4>
-            <div className="flex flex-col gap-3">
-              <div className="flex flex-wrap gap-2 mb-2">
-                <span className="px-2 py-0.5 bg-neutral-900 border border-brand-border rounded text-[9px] font-bold text-neutral-500">ENG</span>
-                <span className="px-2 py-0.5 bg-neutral-900 border border-brand-border rounded text-[9px] font-bold text-neutral-500">URD</span>
-                <span className="px-2 py-0.5 bg-neutral-900 border border-brand-border rounded text-[9px] font-bold text-neutral-500">ARB</span>
-                <span className="px-2 py-0.5 bg-neutral-900 border border-brand-border rounded text-[9px] font-bold text-neutral-500">LV</span>
-              </div>
-              <a href="https://www.fiverr.com/mbrahimshuja" target="_blank" className="flex items-center justify-between group/link">
-                <span className="text-[10px] font-bold text-neutral-500 uppercase tracking-widest group-hover/link:text-emerald-500 transition-colors">Fiverr Expert</span>
-                <Icons.ExternalLink />
-              </a>
-              <a href="https://www.upwork.com/freelancers/~0189a690f05537559e" target="_blank" className="flex items-center justify-between group/link">
-                <span className="text-[10px] font-bold text-neutral-500 uppercase tracking-widest group-hover/link:text-emerald-400 transition-colors">Upwork Professional</span>
-                <Icons.ExternalLink />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+                   
+        
     </section>
   );
 };
