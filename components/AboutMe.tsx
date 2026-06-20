@@ -48,7 +48,7 @@ Yuvaraj Ramalingam is the Founder of SEYONIX, an AI-powered creative and digital
 </p>
 
 <p>
-With a Bachelor of Technology (B.Tech) in Information Technology, he combines technical understanding with modern marketing principles to help businesses establish stronger digital identities, attract customers, and scale growth.
+With a strong foundation in Information Technology and business growth strategy, he helps companies leverage AI, branding, automation and digital marketing to create sustainable competitive advantages.
 </p>
 
 <p>
@@ -76,7 +76,7 @@ Today, his focus remains on creating practical, high-impact solutions that bridg
             <div className="absolute -inset-4 bg-brand-primary/10 rounded-[3rem] blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
             
 {/* Main Picture Frame */}
-<div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden border-2 border-brand-border group-hover:border-brand-primary/50 transition-all duration-500 bg-brand-surface shadow-[0_0_40px_rgba(14,47,118,0.35)]">
+<div className="relative aspect-[3/4] rounded-[2rem] overflow-hidden border-2 border-brand-primary/40 group-hover:border-brand-primary/50 transition-all duration-500 bg-brand-surface shadow-[0_0_40px_rgba(14,47,118,0.35)]">
 
   <img
     src={profilePicUrl}
@@ -89,7 +89,7 @@ Today, his focus remains on creating practical, high-impact solutions that bridg
               {/* Floating Name Badge */}
               <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-brand-dark/40 backdrop-blur-md border border-white/10 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
                 <p className="text-white font-display font-bold text-lg">Yuvaraj Ramalingam</p>
-                <p className="text-brand-primary text-[10px] font-bold uppercase tracking-widest">Founder • AI Growth Architect • Entrepreneur</p>
+                <p className="text-brand-primary text-xs font-bold uppercase tracking-widest">Founder • AI Growth Architect • Entrepreneur</p>
               </div>
             </div>
           </div>
