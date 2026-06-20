@@ -10,7 +10,7 @@ export const PROJECTS: Project[] = [
     tags: ['AI Marketing', 'Branding', 'Digital Growth', 'Creative Technology'],
     imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2000',
     featured: true,
-    githubUrl:'#'
+   githubUrl:'#',
     demoUrl: 'https://www.seyonix.in'
   },
  ];
