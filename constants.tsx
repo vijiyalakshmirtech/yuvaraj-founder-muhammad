@@ -4,14 +4,14 @@ import { Project, Experience, Skill, Certification } from './types';
 export const PROJECTS: Project[] = [
   {
     id: 'p1',
-    title: 'DevVortex-Co (Official Agency)',
-    description: 'My professional software agency website. We build high-performance ecosystems for modern businesses.',
-    longDescription: 'DevVortex-Co is my software development agency. We specialize in digital transformation, building custom SaaS solutions, and high-end web architectures for global clients.',
-    tags: ['Agency', 'Software Solutions', 'Next.js', 'Enterprise'],
+    title: 'SEYONIX',
+    description: 'Website Development, App Development, AI Powered Ad Videos, Digital Marketing, SEO, Social Meida Marketing, Branding and Business Growth Solutions.',
+    longDescription: 'SEYONIX helps businesses leverage Artificial Intelligence, creative content, digital marketing and modern branding strategies to improve visibility, attract customers and accelerate growth.',
+    tags: ['AI Marketing', 'Branding', 'Digital Growth', 'Creative Technology'],
     imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2000',
     featured: true,
     githubUrl: 'https://github.com/muhammadibrahimshujasheikh12',
-    demoUrl: 'https://devvortex-co.netlify.app'
+    demoUrl: 'https://www.seyonix.in'
   },
   {
     id: 'p2',
