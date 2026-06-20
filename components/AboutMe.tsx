@@ -88,7 +88,7 @@ Today, his focus remains on creating practical, high-impact solutions that bridg
               {/* Floating Name Badge */}
               <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-brand-dark/40 backdrop-blur-md border border-white/10 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
                 <p className="text-white font-display font-bold text-lg">Yuvaraj Ramalingam</p>
-                <p className="text-brand-primary text-[10px] font-bold uppercase tracking-widest">Founder & AI Specialist</p>
+                <p className="text-brand-primary text-[10px] font-bold uppercase tracking-widest">Founder • Entrepreneur • Digital Growth Strategist</p>
               </div>
             </div>
           </div>
