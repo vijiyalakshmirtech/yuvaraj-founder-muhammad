@@ -39,7 +39,7 @@ featured:true,
 githubUrl:'#',
 demoUrl:'#'
 }
-
+];
 export const EXPERIENCES: Experience[] = [
 {
 id:'e1',
@@ -173,7 +173,7 @@ export const SKILLS: Skill[] = [
   { name: 'Data Science', category: 'ai' },
   { name: 'Machine Learning', category: 'ai' },
   { name: 'Deep Learning', category: 'ai' },
-  { name: 'NLP Basics', category: 'ai' },
+  { name: 'E-commerce Fundamentals', category: 'marketing' },
   { name: 'AI Model Integration', category: 'ai' },
 
   // Digital Marketing
