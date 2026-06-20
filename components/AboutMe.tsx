@@ -5,7 +5,7 @@ const AboutMe: React.FC = () => {
   const scrimbaUrl = "https://scrimba.com/?via=u432d432";
   
   // User can replace this URL with their own hosted profile picture
-  const profilePicUrl = "/ibrahim.png";
+  const profilePicUrl = "/yuvaraj.png";
 
   return (
     <section id="about" className="py-24 md:py-40 px-6 max-w-6xl mx-auto">
@@ -24,8 +24,8 @@ const AboutMe: React.FC = () => {
           </div>
           
           <h2 className="font-display font-bold text-5xl md:text-7xl text-white tracking-tight leading-[1.1]">
-            About Me. <br/>
-            <span className="text-neutral-500 text-4xl md:text-5xl">Engineering Value.</span>
+           Founder Profile.<br/>
+            <span className="text-neutral-500 text-4xl md:text-5xl">Founder Profile.</span>
           </h2>
 
           {/* Profile Spotlight (Mobile and Inline) */}
@@ -35,7 +35,7 @@ const AboutMe: React.FC = () => {
               <div className="relative aspect-square rounded-[2.5rem] overflow-hidden border border-brand-border bg-brand-surface">
                 <img 
                   src={profilePicUrl} 
-                  alt="Muhammad Ibrahim" 
+                  alt="Yuvaraj Ramalingam" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
                 />
               </div>
@@ -44,7 +44,7 @@ const AboutMe: React.FC = () => {
 
           <div className="space-y-8 text-neutral-400 text-lg leading-relaxed max-w-3xl">
             <p>
-              My name is <span className="text-white font-medium">Muhammad Ibrahim</span>. I am a <span className="text-white font-medium">Full-Stack Developer</span> and Founder of <span className="text-brand-primary font-bold">DevVortex-Co</span>. I have a strong foundation in modern web technologies, creative design, and digital growth. I have completed <span className="text-white font-medium">all 6 semesters of ACCP AI</span> at Aptech, where I mastered full-stack development using the MERN stack, PHP/Laravel, and .NET Core.
+              My name is <span className="text-white font-medium">Yuvaraj Ramalingam</span>. I am a <span className="text-white font-medium">Full-Stack Developer</span> and Founder of <span className="text-brand-primary font-bold">DevVortex-Co</span>. I have a strong foundation in modern web technologies, creative design, and digital growth. I have completed <span className="text-white font-medium">all 6 semesters of ACCP AI</span> at Aptech, where I mastered full-stack development using the MERN stack, PHP/Laravel, and .NET Core.
             </p>
             
             <p>
@@ -79,7 +79,7 @@ const AboutMe: React.FC = () => {
             <div className="relative aspect-[4/5] rounded-[3rem] overflow-hidden border-2 border-brand-border group-hover:border-brand-primary/50 transition-all duration-500 bg-brand-surface shadow-2xl">
               <img 
                 src={profilePicUrl} 
-                alt="Muhammad Ibrahim" 
+                alt="Yuvaraj Ramalingam" 
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
               />
               {/* Overlay Gradient */}
@@ -87,7 +87,7 @@ const AboutMe: React.FC = () => {
               
               {/* Floating Name Badge */}
               <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-brand-dark/40 backdrop-blur-md border border-white/10 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
-                <p className="text-white font-display font-bold text-lg">Muhammad Ibrahim</p>
+                <p className="text-white font-display font-bold text-lg">Yuvaraj Ramalingam</p>
                 <p className="text-brand-primary text-[10px] font-bold uppercase tracking-widest">Founder & AI Specialist</p>
               </div>
             </div>
@@ -105,7 +105,7 @@ const AboutMe: React.FC = () => {
                 </div>
                 
                 <p className="text-neutral-400 text-xs leading-relaxed">
-                  Global software agency by Muhammad Ibrahim. Custom SaaS and AI systems for a multilingual world.
+                  Global software agency by Yuvaraj Ramalingam. Custom SaaS and AI systems for a multilingual world.
                 </p>
 
                 <a 
