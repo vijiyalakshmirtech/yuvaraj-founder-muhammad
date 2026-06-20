@@ -10,36 +10,10 @@ export const PROJECTS: Project[] = [
     tags: ['AI Marketing', 'Branding', 'Digital Growth', 'Creative Technology'],
     imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2000',
     featured: true,
-    githubUrl: 'https://github.com/muhammadibrahimshujasheikh12',
+    githubUrl:'#'
     demoUrl: 'https://www.seyonix.in'
   },
-  {
-id:'p2',
-title:'AI Ad Videos',
-description:'Cinematic AI advertising videos for modern businesses.',
-featured:true,
-githubUrl:'#',
-demoUrl:'#'
-},
-
-{
-id:'p3',
-title:'AI Posters',
-description:'Premium AI generated business posters and campaigns.',
-featured:true,
-githubUrl:'#',
-demoUrl:'#'
-},
-
-{
-id:'p4',
-title:'Digital Marketing',
-description:'Growth focused marketing systems and lead generation.',
-featured:true,
-githubUrl:'#',
-demoUrl:'#'
-}
-];
+ ];
 export const EXPERIENCES: Experience[] = [
 {
 id:'e1',
@@ -173,16 +147,14 @@ export const SKILLS: Skill[] = [
   { name: 'Data Science', category: 'ai' },
   { name: 'Machine Learning', category: 'ai' },
   { name: 'Deep Learning', category: 'ai' },
-  { name: 'E-commerce Fundamentals', category: 'marketing' },
-  { name: 'AI Model Integration', category: 'ai' },
+   { name: 'AI Model Integration', category: 'ai' },
 
   // Digital Marketing
   { name: 'Social Media Marketing', category: 'marketing' },
   { name: 'Branding', category: 'marketing' },
   { name: 'Content Strategy', category: 'marketing' },
   { name: 'Meta Ads (Basics)', category: 'marketing' },
-  { name: 'E-commerce Fundamentals', category: 'marketing' },
-  { name: 'Digital Growth Strategies', category: 'marketing' },
+   { name: 'Digital Growth Strategies', category: 'marketing' },
 
   // Creative Skills
   { name: 'Graphic Design', category: 'creative' },
