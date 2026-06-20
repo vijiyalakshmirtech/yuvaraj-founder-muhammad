@@ -160,39 +160,39 @@ export const EXPERIENCES: Experience[] = [
   }
 ];
 
-export const CERTIFICATIONS: Certification[] = [
-  {
-    id: 'c1',
-    title: 'ACCP-AI Specialization (6 Semesters Complete)',
-    issuer: 'Aptech Learning',
-    date: '2026 (Expected)',
-    description: 'Advanced curriculum focusing on MERN Stack, PHP/Laravel, .NET Core, and Python-based AI foundations. Recognized for architectural excellence.',
-    status: 'completed'
-  },
-  {
-    id: 'c2',
-    title: 'Professional Digital Marketing & E-commerce',
-    issuer: 'Extreme Commerce',
-    date: '2023',
-    description: 'Certified expertise in Social Media Marketing (SMM), branding strategy, and high-conversion e-commerce funnels.',
-    status: 'completed'
-  },
-  {
-    id: 'c3',
-    title: 'Full-Stack Web Development Mastery',
-    issuer: 'Scrimba',
-    date: 'Ongoing',
-    description: 'Mastering modern engineering patterns, React performance, and advanced JavaScript through interactive, high-fidelity curriculum.',
-    status: 'in-progress'
-  },
-  {
-    id: 'c4',
-    title: 'Advanced AI Systems Engineering',
-    issuer: 'Industry Standard Placeholder',
-    date: 'Upcoming',
-    description: 'Future specialization planned in large language model (LLM) fine-tuning and advanced neural network architectures.',
-    status: 'upcoming'
-  }
+export const CERTIFICATIONS = [
+{
+id:'c1',
+title:'Bachelor of Technology (Information Technology)',
+issuer:'Academic Qualification',
+date:'Completed',
+description:'Strong foundation in Information Technology, systems, software and digital innovation.',
+status:'completed'
+},
+{
+id:'c2',
+title:'AI Powered Marketing Specialist',
+issuer:'SEYONIX',
+date:'2026',
+description:'Specialized in AI Ad Videos, AI Posters and AI-driven business growth strategies.',
+status:'completed'
+},
+{
+id:'c3',
+title:'Digital Growth Strategy',
+issuer:'SEYONIX',
+date:'2026',
+description:'Building scalable systems for branding, lead generation and business growth.',
+status:'completed'
+},
+{
+id:'c4',
+title:'Advanced AI Automation',
+issuer:'Future Focus',
+date:'Ongoing',
+description:'Researching AI automation, workflows and business intelligence systems.',
+status:'in-progress'
+}
 ];
 
 export const SKILLS: Skill[] = [
