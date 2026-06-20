@@ -34,7 +34,7 @@ const AboutMe: React.FC = () => {
                 <img 
                   src={profilePicUrl} 
                   alt="Yuvaraj Ramalingam" 
-                  className="w-full h-full object-cover grayscale transition-all duration-700 scale-110 group-hover:scale-100"
+                  className="w-full h-full object-cover transition-all duration-700 scale-110 group-hover:scale-100"
                 />
               </div>
             </div>
@@ -75,13 +75,14 @@ Today, his focus remains on creating practical, high-impact solutions that bridg
             {/* Background Aura */}
             <div className="absolute -inset-4 bg-brand-primary/10 rounded-[3rem] blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
             
-            {/* Main Picture Frame */}
-            className="relative aspect-[4/5] rounded-[2rem] overflow-hidden border-2 border-brand-border group-hover:border-brand-primary/50 transition-all duration-500 bg-brand-surface shadow-[0_0_40px_rgba(14,47,118,0.35)]"
-              <img 
-                src={profilePicUrl} 
-                alt="Yuvaraj Ramalingam" 
-               className="w-full h-full object-cover transition-all duration-1000 scale-105 group-hover:scale-100"
-              />
+{/* Main Picture Frame */}
+<div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden border-2 border-brand-border group-hover:border-brand-primary/50 transition-all duration-500 bg-brand-surface shadow-[0_0_40px_rgba(14,47,118,0.35)]">
+
+  <img
+    src={profilePicUrl}
+    alt="Yuvaraj Ramalingam"
+    className="w-full h-full object-cover transition-all duration-1000 scale-105 group-hover:scale-100"
+  />
               {/* Overlay Gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-brand-dark via-transparent to-transparent opacity-60"></div>
               
@@ -98,7 +99,7 @@ Today, his focus remains on creating practical, high-impact solutions that bridg
              <div className="relative z-10 flex flex-col gap-5">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-xl bg-white text-[#0E2F76] flex items-center justify-center font-bold text-xl shadow-lg">
-YR
+SX
 </div>
                   <div>
                     <h4 className="text-white font-bold text-lg leading-tight">SEYONIX</h4>
