@@ -212,9 +212,9 @@ const App: React.FC = () => {
         <footer className="py-20 border-t border-brand-border px-8">
           <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
             <div className="flex flex-col items-center md:items-start">
-               <span className="font-display font-bold text-white text-2xl mb-2">Ibrahim.</span>
+               <span className="font-display font-bold text-white text-2xl mb-2">YUVARAJ RAMALINGAM.</span>
                <p className="text-neutral-600 text-sm max-w-md text-center md:text-left leading-relaxed">
-                Founder of <span className="text-brand-primary font-bold">DevVortex-Co</span> | Full-Stack Developer | AI Specialist | Scrimba Ambassador | Digital Marketer
+                Founder of <span className="text-brand-primary font-bold">SEYONIX</span> | Entrepreneur | Digital Growth Strategist | AI Creative Specialist
                </p>
             </div>
             <div className="flex flex-wrap gap-6 justify-center md:justify-end">
@@ -228,7 +228,7 @@ const App: React.FC = () => {
             </div>
           </div>
           <div className="mt-20 text-center text-[10px] font-bold text-neutral-800 uppercase tracking-[0.4em]">
-            &copy; {new Date().getFullYear()} MUHAMMAD IBRAHIM. ALL RIGHTS RESERVED.
+            &copy; {new Date().getFullYear()} YUVARAJ RAMALINGAM. ALL RIGHTS RESERVED.
           </div>
         </footer>
       </div>
