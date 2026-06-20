@@ -4,8 +4,11 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
-    return {
-      server: {
+ return {
+
+  base: '/yuvaraj-founder-muhammad/',
+
+  server: {
         port: 3000,
         host: '0.0.0.0',
       },
