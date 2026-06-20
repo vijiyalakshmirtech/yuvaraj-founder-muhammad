@@ -15,14 +15,14 @@ const AboutMe: React.FC = () => {
           <div className="flex flex-wrap gap-4">
             <div className="inline-flex items-center gap-3 px-3 py-1 rounded-full bg-brand-primary/10 border border-brand-primary/20">
               <span className="w-1.5 h-1.5 rounded-full bg-brand-primary animate-pulse"></span>
-              <span className="text-brand-primary text-[10px] font-bold tracking-widest uppercase">Professional Founder</span>
+              <span className="text-brand-primary text-[10px] font-bold tracking-widest uppercase">Founder of Seyonix</span>
             </div>
           </div>
           
 <h2 className="font-display font-bold text-5xl md:text-7xl text-white tracking-tight leading-[1.1]">
- About Me.<br/>
+ Founder Profile.<br/>
  <span className="text-neutral-500 text-4xl md:text-5xl">
-Founder • AI Growth Architect • Entrepreneur
+ Building Businesses Through AI & Digital Growth
  </span>
 </h2>
 
@@ -34,7 +34,7 @@ Founder • AI Growth Architect • Entrepreneur
                 <img 
                   src={profilePicUrl} 
                   alt="Yuvaraj Ramalingam" 
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
+                  className="w-full h-full object-cover grayscale transition-all duration-700 scale-110 group-hover:scale-100"
                 />
               </div>
             </div>
@@ -42,7 +42,9 @@ Founder • AI Growth Architect • Entrepreneur
 
           <div className="space-y-8 text-neutral-400 text-lg leading-relaxed max-w-3xl">
             <p>
-Yuvaraj Ramalingam is an entrepreneur, digital growth strategist, and AI-powered creative specialist from Tamil Nadu, India.
+<p>
+Yuvaraj Ramalingam is the Founder of SEYONIX, an AI-powered creative and digital growth company helping businesses scale through AI Ad Videos, Branding, Websites and Digital Marketing.
+</p>
 </p>
 
 <p>
@@ -59,7 +61,7 @@ Today, his focus remains on creating practical, high-impact solutions that bridg
 
             <div className="p-6 bg-brand-surface border border-brand-border rounded-2xl border-l-4 border-l-brand-primary">
               <p className="text-neutral-300 italic text-base">
-                "Technology creates opportunities. Creativity attracts attention. Strategy creates direction. Execution creates results."
+              "The future belongs to businesses that combine creativity, technology and execution."
               </p>
             </div>
           </div>
@@ -74,11 +76,11 @@ Today, his focus remains on creating practical, high-impact solutions that bridg
             <div className="absolute -inset-4 bg-brand-primary/10 rounded-[3rem] blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
             
             {/* Main Picture Frame */}
-            <div className="relative aspect-[4/5] rounded-[3rem] overflow-hidden border-2 border-brand-border group-hover:border-brand-primary/50 transition-all duration-500 bg-brand-surface shadow-2xl">
+            className="relative aspect-[4/5] rounded-[2rem] overflow-hidden border-2 border-brand-border group-hover:border-brand-primary/50 transition-all duration-500 bg-brand-surface shadow-[0_0_40px_rgba(14,47,118,0.35)]"
               <img 
                 src={profilePicUrl} 
                 alt="Yuvaraj Ramalingam" 
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
+               className="w-full h-full object-cover transition-all duration-1000 scale-105 group-hover:scale-100"
               />
               {/* Overlay Gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-brand-dark via-transparent to-transparent opacity-60"></div>
@@ -114,7 +116,7 @@ YR
                   rel="noopener noreferrer"
                   className="w-full py-4 bg-white text-black text-center font-bold text-[10px] uppercase tracking-widest rounded-xl hover:bg-brand-primary hover:text-white transition-all shadow-xl flex items-center justify-center gap-2"
                 >
-                  Visit SEYONIX
+                 Explore SEYONIX
                   <Icons.ExternalLink />
                 </a>
              </div>
