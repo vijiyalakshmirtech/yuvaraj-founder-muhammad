@@ -5,7 +5,7 @@ const AboutMe: React.FC = () => {
   const scrimbaUrl = "https://scrimba.com/?via=u432d432";
   
   // User can replace this URL with their own hosted profile picture
-  const profilePicUrl = "/yuvaraj.png";
+  const profilePicUrl = "./yuvaraj.png";
 
   return (
     <section id="about" className="py-24 md:py-40 px-6 max-w-6xl mx-auto">
@@ -22,7 +22,7 @@ const AboutMe: React.FC = () => {
 <h2 className="font-display font-bold text-5xl md:text-7xl text-white tracking-tight leading-[1.1]">
  About Me.<br/>
  <span className="text-neutral-500 text-4xl md:text-5xl">
- Entrepreneur • AI Growth Architect
+Founder • AI Growth Architect • Entrepreneur
  </span>
 </h2>
 
@@ -105,7 +105,7 @@ YR
                 </div>
                 
                 <p className="text-neutral-400 text-xs leading-relaxed">
-                 AI Powered Ad Videos, AI Posters, Branding, Website Development, Digital Marketing and Business Growth Systems for modern businesses.
+                 Helping businesses grow through AI Powered Ad Videos, Digital Marketing, Branding, Website Development and Business Growth Systems.
                 </p>
 
                 <a 
