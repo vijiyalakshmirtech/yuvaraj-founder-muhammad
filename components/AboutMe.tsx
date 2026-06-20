@@ -44,24 +44,24 @@ const AboutMe: React.FC = () => {
 
           <div className="space-y-8 text-neutral-400 text-lg leading-relaxed max-w-3xl">
             <p>
-              My name is <span className="text-white font-medium">Yuvaraj Ramalingam</span>. I am a <span className="text-white font-medium">Full-Stack Developer</span> and Founder of <span className="text-brand-primary font-bold">DevVortex-Co</span>. I have a strong foundation in modern web technologies, creative design, and digital growth. I have completed <span className="text-white font-medium">all 6 semesters of ACCP AI</span> at Aptech, where I mastered full-stack development using the MERN stack, PHP/Laravel, and .NET Core.
-            </p>
-            
-            <p>
-              I am a multilingual professional, fluent in <span className="text-white font-medium">English and Urdu</span>, with intermediate proficiency in <span className="text-white font-medium">Arabic</span> and basic knowledge of <span className="text-white font-medium">Latvian</span>. This diverse linguistic background allows me to collaborate effectively with clients from various cultural and geographical landscapes.
-            </p>
+Yuvaraj Ramalingam is an entrepreneur, digital growth strategist, and AI-powered creative specialist from Tamil Nadu, India.
+</p>
 
-            <p>
-              Currently, I am a <span className="text-brand-primary font-bold">Scrimba Student & Scrimba Ambassador</span>. My role as an Ambassador is centered on referral partnership—helping new students discover Scrimba's world-class platform while I refine my own student journey in advanced engineering.
-            </p>
+<p>
+With a Bachelor of Technology (B.Tech) in Information Technology, he combines technical understanding with modern marketing principles to help businesses establish stronger digital identities, attract customers, and scale growth.
+</p>
 
-            <p>
-              Alongside engineering, my training from <span className="text-white font-medium">Extreme Commerce</span> in Digital Marketing allows me to build products that are not only technically sound but also strategically positioned for growth.
-            </p>
+<p>
+His work sits at the intersection of technology, branding, marketing, and innovation. Rather than treating marketing as advertising alone, he views business growth as a combination of strategy, systems, creativity, customer psychology, and digital transformation.
+</p>
+
+<p>
+Today, his focus remains on creating practical, high-impact solutions that bridge the gap between business challenges and digital opportunities through SEYONIX.
+</p>
 
             <div className="p-6 bg-brand-surface border border-brand-border rounded-2xl border-l-4 border-l-brand-primary">
               <p className="text-neutral-300 italic text-base">
-                "Communication is the bridge to value. Speaking four languages helps me build that bridge globally."
+                "Technology creates opportunities. Creativity attracts attention. Strategy creates direction. Execution creates results."
               </p>
             </div>
           </div>
@@ -99,13 +99,13 @@ const AboutMe: React.FC = () => {
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-xl bg-white text-black flex items-center justify-center font-bold text-xl shadow-lg">DV</div>
                   <div>
-                    <h4 className="text-white font-bold text-lg leading-tight">DevVortex-Co</h4>
-                    <span className="text-[10px] text-brand-primary font-bold tracking-widest uppercase">Founded 2025</span>
+                    <h4 className="text-white font-bold text-lg leading-tight">SEYONIX</h4>
+                    <span className="text-[10px] text-brand-primary font-bold tracking-widest uppercase">AI Powered Growth Agency</span>
                   </div>
                 </div>
                 
                 <p className="text-neutral-400 text-xs leading-relaxed">
-                  Global software agency by Yuvaraj Ramalingam. Custom SaaS and AI systems for a multilingual world.
+                 AI Powered Ad Videos, Branding, Digital Marketing, Website Development and Business Growth Solutions.
                 </p>
 
                 <a 
@@ -114,29 +114,13 @@ const AboutMe: React.FC = () => {
                   rel="noopener noreferrer"
                   className="w-full py-4 bg-white text-black text-center font-bold text-[10px] uppercase tracking-widest rounded-xl hover:bg-brand-primary hover:text-white transition-all shadow-xl flex items-center justify-center gap-2"
                 >
-                  Visit Agency
+                  Visit SEYONIX
                   <Icons.ExternalLink />
                 </a>
              </div>
           </div>
 
-          {/* Scrimba Ambassador Badge */}
-          <div className="card-premium p-6 rounded-2xl border-orange-500/20 bg-orange-500/5 group">
-            <div className="flex items-center gap-4 mb-3">
-              <div className="w-10 h-10 rounded-lg bg-orange-500/20 text-orange-500 flex items-center justify-center group-hover:bg-orange-500 group-hover:text-white transition-all">
-                <Icons.Scrimba />
-              </div>
-              <h4 className="text-white font-bold text-sm uppercase tracking-widest">Referral Ambassador</h4>
-            </div>
-            <p className="text-neutral-500 text-xs leading-relaxed mb-4">
-              Authorized Referral Partner. Helping global students master code through Scrimba's methodology.
-            </p>
-            <a href={scrimbaUrl} target="_blank" className="text-orange-500 text-[10px] font-bold uppercase tracking-widest hover:underline flex items-center gap-1">
-              Verify Link <Icons.ExternalLink />
-            </a>
-          </div>
-
-          <div className="card-premium p-6 rounded-2xl">
+                    <div className="card-premium p-6 rounded-2xl">
             <h4 className="text-white font-bold text-sm uppercase tracking-widest mb-4 opacity-50">Global Hire</h4>
             <div className="flex flex-col gap-3">
               <div className="flex flex-wrap gap-2 mb-2">
