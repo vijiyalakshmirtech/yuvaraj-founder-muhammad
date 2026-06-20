@@ -14,193 +14,132 @@ export const PROJECTS: Project[] = [
     demoUrl: 'https://www.seyonix.in'
   },
   {
-    id: 'p2',
-    title: 'Aurum & Olive',
-    description: 'A luxury lifestyle and wellness brand interface designed for high-end retail experiences and sophisticated aesthetics.',
-    longDescription: 'A premium design-focused project highlighting UI/UX excellence in the luxury retail sector, emphasizing minimalism and high-conversion layouts.',
-    tags: ['Luxury Retail', 'UI/UX', 'Branding', 'Premium'],
-    imageUrl: 'https://images.unsplash.com/photo-1541746972996-4e0b0f43e03a?auto=format&fit=crop&q=80&w=2000',
-    featured: true,
-    githubUrl: 'https://github.com/muhammadibrahimshujasheikh12',
-    demoUrl: '#'
-  },
-  {
-    id: 'p3',
-    title: 'TechWave Digital Hub',
-    description: 'A premium SaaS platform for tech community engagement, featuring real-time trend tracking and social integration.',
-    longDescription: 'A high-performance community platform built to handle high-traffic interactions with a focus on modern developer experience.',
-    tags: ['SaaS', 'React', 'Firebase', 'Community'],
-    imageUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=2000',
-    featured: true,
-    githubUrl: 'https://github.com/muhammadibrahimshujasheikh12',
-    demoUrl: '#'
-  },
-  {
-    id: 'p4',
-    title: 'SkyCast Pro Weather',
-    description: 'Executive-level weather dashboard with real-time data visualization and global satellite tracking.',
-    longDescription: 'Utilizing OpenWeather APIs and advanced charting libraries to provide a hyper-local and global weather experience with predictive modeling.',
-    tags: ['API Integration', 'Data Viz', 'Glassmorphism'],
-    imageUrl: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=2000',
-    featured: true,
-    githubUrl: 'https://github.com/muhammadibrahimshujasheikh12',
-    demoUrl: '#'
-  },
-  {
-    id: 'p5',
-    title: 'Iqra Path',
-    description: 'A comprehensive digital roadmap for structured academic and spiritual learning paths.',
-    longDescription: 'A sophisticated learning management platform focused on providing structured curriculum and tracking progress for educational excellence.',
-    tags: ['Education', 'Learning Path', 'Next.js'],
-    imageUrl: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=2000',
-    featured: false,
-    githubUrl: 'https://github.com/muhammadibrahimshujasheikh12',
-    demoUrl: '#'
-  },
-  {
-    id: 'p6',
-    title: 'BakingForCraving',
-    description: 'A premium, high-conversion E-commerce platform designed for artisanal bakeries with seamless checkout.',
-    longDescription: 'Combines digital marketing strategy with high-end frontend design to create a mouth-watering user experience that drives sales.',
-    tags: ['E-commerce', 'MERN Stack', 'Branding'],
-    imageUrl: 'https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&q=80&w=2000',
-    featured: false,
-    githubUrl: 'https://github.com/muhammadibrahimshujasheikh12',
-    demoUrl: '#'
-  },
-  {
-    id: 'p7',
-    title: 'LingoFlow AI',
-    description: 'An intelligent language translation and flow analysis tool leveraging modern AI models.',
-    longDescription: 'Utilizes ACCP-AI specialized training to implement intelligent natural language processing workflows.',
-    tags: ['Python', 'AI/ML', 'React'],
-    imageUrl: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=2000',
-    featured: false,
-    githubUrl: 'https://github.com/muhammadibrahimshujasheikh12',
-    demoUrl: '#'
-  },
-  {
-    id: 'p8',
-    title: 'Hidayah Hub',
-    description: 'A community-centric educational repository focused on structured dissemination of knowledge.',
-    longDescription: 'A full-stack solution providing a centralized hub for learning materials with a focus on accessibility.',
-    tags: ['PHP', 'Laravel', 'Education'],
-    imageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&q=80&w=2000',
-    featured: false,
-    githubUrl: 'https://github.com/muhammadibrahimshujasheikh12',
-    demoUrl: '#'
-  }
-];
+id:'p2',
+title:'AI Ad Videos',
+description:'Cinematic AI advertising videos for modern businesses.',
+featured:true,
+githubUrl:'#',
+demoUrl:'#'
+},
+
+{
+id:'p3',
+title:'AI Posters',
+description:'Premium AI generated business posters and campaigns.',
+featured:true,
+githubUrl:'#',
+demoUrl:'#'
+},
+
+{
+id:'p4',
+title:'Digital Marketing',
+description:'Growth focused marketing systems and lead generation.',
+featured:true,
+githubUrl:'#',
+demoUrl:'#'
+}
 
 export const EXPERIENCES: Experience[] = [
-  {
-    id: 'agency',
-    company: 'DevVortex-Co',
-    role: 'Founder & Lead Developer',
-    period: '2025 - Present',
-    description: [
-      'Founded and scaled a full-service software agency delivering enterprise web solutions.',
-      'Lead architectural design for high-performance React and MERN stack applications.',
-      'Consulting for global clients on digital transformation and AI integration.',
-      'Managing multi-disciplinary teams across development, design, and marketing.'
-    ],
-    technologies: ['Agency Leadership', 'Business Strategy', 'Full-Stack', 'Next.js'],
-  },
-  {
-    id: 'scrimba',
-    company: 'Scrimba',
-    role: 'Scrimba Ambassador & Student',
-    period: '2025 - Present',
-    description: [
-      'Mastering the Full-Stack Developer path through interactive, project-based learning.',
-      'Official Scrimba Ambassador focused on referring students to the platform and sharing my learning journey.',
-      'Promoting the benefits of Scrimba’s unique code-execution video methodology.',
-      'Regularly documenting progress and sharing referral insights within the tech community.'
-    ],
-    technologies: ['React', 'JavaScript', 'Full-Stack Engineering', 'Referral Strategy'],
-  },
-  {
-    id: 'aptech',
-    company: 'Aptech Learning',
-    role: 'Full-Stack Developer (ACCP-AI Specialist)',
-    period: '2024 - 2026',
-    description: [
-      'Completing rigorous academic focus on Full-Stack Web Development: MERN, PHP, Laravel, and .NET Core.',
-      'Deep dive into Database Engineering with MySQL, MongoDB, and SQL Server.',
-      'Researching Python-based AI foundations, including Machine Learning and NLP basics.',
-      'Awarded for excellence in advanced software architecture and data structures.'
-    ],
-    technologies: ['ACCP-AI', 'MERN Stack', 'Python AI', 'SQL Server'],
-  },
-  {
-    id: 'marketing',
-    company: 'Extreme Commerce',
-    role: 'Digital Marketing Specialist',
-    period: '2023 - 2023',
-    description: [
-      'Completed professional certification in Digital Marketing and E-commerce growth.',
-      'Mastered Social Media Marketing (SMM) and strategic online branding.',
-      'Implemented high-conversion funnels and digital growth strategies for brands.',
-      'Learned content strategy and Facebook/Instagram advertising fundamentals.'
-    ],
-    technologies: ['SMM', 'Brand Strategy', 'Ads', 'E-commerce'],
-  },
-  {
-    id: 'freelance',
-    company: 'Upwork & Fiverr',
-    role: 'Expert Freelance Developer & Designer',
-    period: '2022 - Present',
-    description: [
-      'Providing web development, full-stack solutions, and digital services to clients worldwide.',
-      'Maintaining a top-tier reputation for delivering pixel-perfect UI and scalable backends.',
-      'Specializing in custom API integrations and rapid prototyping for startups.',
-      'Integrating graphic design and video editing skills into full digital branding packages.'
-    ],
-    technologies: ['React', 'Freelancing', 'UI/UX', 'Digital Services'],
-  }
-];
+{
+id:'e1',
+company:'SEYONIX',
+role:'Founder & AI Growth Architect',
+period:'2025 - Present',
+description:[
+'Founded SEYONIX to help businesses grow through AI-powered marketing.',
+'Building AI Ad Videos, AI Posters and Digital Branding solutions.',
+'Helping local businesses improve visibility and customer acquisition.',
+'Leading business strategy, creative direction and technology integration.'
+],
+technologies:['AI Marketing','Branding','Digital Growth','Leadership']
+},
 
-export const CERTIFICATIONS = [
+{
+id:'e2',
+company:'Digital Marketing',
+role:'Growth Strategist',
+period:'2024 - Present',
+description:[
+'Creating digital growth strategies.',
+'Managing social media campaigns.',
+'Building lead generation systems.',
+'Helping businesses increase visibility.'
+],
+technologies:['Marketing','SEO','Lead Generation']
+},
+
+{
+id:'e3',
+company:'AI Ad Production',
+role:'Creative Director',
+period:'2024 - Present',
+description:[
+'Creating AI Powered Ad Videos.',
+'Developing AI visual campaigns.',
+'Building promotional content.',
+'Designing high conversion creatives.'
+],
+technologies:['AI Videos','Creative Direction']
+},
+
+{
+id:'e4',
+company:'Website Development',
+role:'Full Stack Consultant',
+period:'2023 - Present',
+description:[
+'Building websites for businesses.',
+'Creating responsive web experiences.',
+'Providing technical consulting.',
+'Developing scalable digital solutions.'
+],
+technologies:['Web Development','Technology']
+}
+];
+export const CERTIFICATIONS: Certification[] = [
 {
 id:'c1',
-title:'Bachelor of Technology (Information Technology)',
+title:'Bachelor of Technology (IT)',
 issuer:'Academic Qualification',
 date:'Completed',
-description:'Strong foundation in Information Technology, systems, software and digital innovation.',
+description:'Information Technology background with focus on business technology.',
 status:'completed'
 },
+
 {
 id:'c2',
-title:'AI Powered Marketing Specialist',
+title:'AI Marketing Specialist',
 issuer:'SEYONIX',
 date:'2026',
-description:'Specialized in AI Ad Videos, AI Posters and AI-driven business growth strategies.',
+description:'AI Ad Videos, AI Posters and Digital Marketing.',
 status:'completed'
 },
+
 {
 id:'c3',
-title:'Digital Growth Strategy',
+title:'Business Growth Strategy',
 issuer:'SEYONIX',
 date:'2026',
-description:'Building scalable systems for branding, lead generation and business growth.',
+description:'Business growth through branding and digital systems.',
 status:'completed'
-},
-{
-id:'c4',
-title:'Advanced AI Automation',
-issuer:'Future Focus',
-date:'Ongoing',
-description:'Researching AI automation, workflows and business intelligence systems.',
-status:'in-progress'
 }
 ];
 
 export const SKILLS: Skill[] = [
   // Languages
-  { name: 'English (Professional)', category: 'languages' },
-  { name: 'Urdu (Native)', category: 'languages' },
-  { name: 'Arabic (Intermediate)', category: 'languages' },
-  { name: 'Latvian (Basic)', category: 'languages' },
+  
+  { name: 'English', category: 'languages' },
+  { name:'Tamil', category:'languages' },
+{ name:'AI Ad Videos', category:'marketing' },
+{ name:'AI Posters', category:'marketing' },
+{ name:'Digital Marketing', category:'marketing' },
+{ name:'Brand Strategy', category:'marketing' },
+{ name:'Business Growth', category:'marketing' },
+{ name:'Lead Generation', category:'marketing' },
+{ name:'SEO', category:'marketing' },
+{ name:'Meta Ads', category:'marketing' },
+{ name:'AI Automation', category:'ai' },
 
   // Web Development
   { name: 'HTML5', category: 'frontend' },
