@@ -11,25 +11,18 @@ const Hero: React.FC = () => {
   // Path to CV file exactly as requested
   const cvUrl = "/Muhammadibrahim.pdf"; 
 
-  const roles = [
-    "Full-Stack Developer",
-    "React.js Developer",
-    "JavaScript Developer",
-    "MERN Stack Developer",
-    "Web Developer",
-    "Scrimba Ambassador",
-    "Scrimba Student",
-    "Freelance Web Developer",
-    "Freelancer on Upwork",
-    "Freelancer on Fiverr",
-    "Digital Marketer",
-    "Graphic Designer",
-    "Video Editor",
-    "Full-Stack UI Developer",
-    "Creative Technologist",
-    "AI Foundations Learner",
-    "AI-Integrated Web Developer"
-  ];
+const roles = [
+  "Founder",
+  "Entrepreneur",
+  "Digital Growth Strategist",
+  "AI Growth Architect",
+  "Brand Builder",
+  "AI Creative Specialist",
+  "Business Consultant",
+  "Digital Transformation Advocate",
+  "Technology Enthusiast",
+  "SEYONIX Founder"
+];
 
   useEffect(() => {
     const handleTyping = () => {
@@ -60,7 +53,7 @@ const Hero: React.FC = () => {
       <div className="w-full max-w-5xl mx-auto relative z-10 flex flex-col items-center text-center">
         <div className="flex items-center gap-2 px-4 py-1.5 rounded-full border border-brand-border bg-brand-surface/50 text-[11px] font-semibold tracking-wide text-brand-primary mb-10 animate-premium">
           <span className="w-1.5 h-1.5 bg-brand-primary rounded-full animate-pulse"></span>
-          OPEN FOR NEW PROJECTS & COLLABORATIONS
+          ✦ FOUNDER OF SEYONIX
         </div>
 
         <div className="min-h-[160px] md:min-h-[200px] lg:min-h-[250px] flex flex-col items-center justify-center">
@@ -73,7 +66,7 @@ const Hero: React.FC = () => {
         </div>
         
         <p className="max-w-xl text-lg md:text-xl text-neutral-500 font-medium mb-12 leading-relaxed animate-premium">
-          I'm <span className="text-white">Muhammad Ibrahim</span>. Founder of <span className="text-brand-primary font-bold">DevVortex-Co</span>, building high-performance full-stack systems and AI solutions.
+        I'm <span className="text-white">YUVARAJ RAMALINGAM</span>. Founder of <span className="text-brand-primary font-bold">SEYONIX</span>, helping businesses grow through AI-powered marketing, branding, digital strategy, and creative technology.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-4 w-full max-w-lg animate-premium">
@@ -81,7 +74,7 @@ const Hero: React.FC = () => {
             onClick={() => document.getElementById('projects')?.scrollIntoView({behavior:'smooth'})}
             className="w-full py-4 bg-white text-black font-bold text-sm rounded-xl hover:bg-brand-primary hover:text-white transition-all shadow-xl active:scale-[0.98] flex items-center justify-center gap-2"
           >
-            Explore Projects
+            Explore My Journey
           </button>
           
           <a 
@@ -90,7 +83,7 @@ const Hero: React.FC = () => {
             rel="noopener noreferrer"
             className="w-full py-4 border border-brand-border text-white font-bold text-sm rounded-xl hover:bg-white/5 transition-all flex items-center justify-center gap-2"
           >
-            View CV
+            Founder Profile
             <Icons.FileText />
           </a>
 
