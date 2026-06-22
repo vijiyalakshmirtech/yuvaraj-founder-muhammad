@@ -11,7 +11,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         <img 
           src={project.imageUrl} 
           alt={project.title} 
-          className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+          className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-brand-dark/20 group-hover:bg-transparent transition-all"></div>
       </div>
@@ -32,19 +32,21 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         <p className="text-neutral-400 text-sm leading-relaxed mb-10 flex-1">
           {project.description}
         </p>
+        <div className="mb-8 space-y-2 text-xs text-neutral-400">
+  <p>✓ AI Powered Ad Videos</p>
+  <p>✓ Digital Marketing</p>
+  <p>✓ Branding Systems</p>
+  <p>✓ Website Development</p>
+  <p>✓ Business Growth</p>
+</div>
 
-        <div className="pt-6 border-t border-brand-border flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            <a href={project.githubUrl} target="_blank" className="text-neutral-600 hover:text-white transition-colors">
-              <Icons.Github />
-            </a>
-          </div>
+        <div className="pt-6 border-t border-brand-border flex justify-end">
           <a 
             href={project.demoUrl} 
             target="_blank" 
-            className="flex items-center gap-2 text-xs font-bold text-white uppercase tracking-widest group-hover:text-brand-primary transition-colors"
+           className="flex items-center gap-2 text-xs font-bold text-white uppercase tracking-[0.2em] group-hover:text-brand-primary transition-colors"
           >
-            Live Demo
+          EXPLORE SEYONIX
             <Icons.ExternalLink />
           </a>
         </div>
