@@ -12,6 +12,11 @@ const AboutMe: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
         {/* Left Column: Narrative */}
         <div className="lg:col-span-8 space-y-10">
+          <img
+  src="/seyonix-logo.png"
+  alt="SEYONIX"
+  className="h-28 w-auto mb-4 object-contain"
+/>
           <div className="flex flex-wrap gap-4">
             <div className="inline-flex items-center gap-3 px-3 py-1 rounded-full bg-brand-primary/10 border border-brand-primary/20">
               <span className="w-1.5 h-1.5 rounded-full bg-brand-primary animate-pulse"></span>
