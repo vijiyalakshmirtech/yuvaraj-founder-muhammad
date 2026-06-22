@@ -34,8 +34,7 @@ const ExperienceTimeline: React.FC = () => {
   key={tech}
   className="text-[10px] font-bold px-3 py-1 bg-neutral-900 text-brand-primary rounded border border-brand-primary/20 uppercase tracking-wider"
 >
-  {tech}
-</span>
+
                   {tech}
                 </span>
               ))}
