@@ -5,7 +5,7 @@ const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const cvUrl = "#";
+  
 const agencyUrl = "https://www.seyonix.in";
 
   useEffect(() => {
@@ -45,9 +45,9 @@ const agencyUrl = "https://www.seyonix.in";
             rel="noopener noreferrer"
             className="text-[10px] font-bold tracking-widest text-brand-primary uppercase px-3 py-1 bg-brand-primary/10 rounded-full border border-brand-primary/20 hover:bg-brand-primary hover:text-white transition-all"
           >
-            SEYONIX
+           SEYONIX • AI GROWTH COMPANY
           </a>
-          {['About', 'Projects', 'Skills', 'Experience'].map((item) => (
+          {['About', 'Projects', 'Services', 'Journey'].map((item) => (
             <button
               key={item}
               onClick={(e) => scrollToSection(e, item.toLowerCase())}
@@ -56,22 +56,14 @@ const agencyUrl = "https://www.seyonix.in";
               {item}
             </button>
           ))}
-          <a 
-            href={cvUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xs font-bold tracking-wide text-white hover:text-brand-primary transition-all flex items-center gap-2"
-          >
-            CV <Icons.FileText />
-          </a>
-        </div>
+                  </div>
 
         <div className="flex items-center gap-2 sm:gap-3">
           <button 
             onClick={(e) => scrollToSection(e, 'contact')}
             className="px-4 sm:px-5 py-2.5 bg-brand-primary text-white font-bold text-xs rounded-xl hover:bg-brand-secondary transition-all active:scale-95 shadow-lg shadow-brand-primary/20 shrink-0"
           >
-           Let's Connect
+          Start a Conversation
           </button>
 
           <button 
@@ -93,7 +85,7 @@ const agencyUrl = "https://www.seyonix.in";
         >
           SEYONIX
         </a>
-        {['Founder', 'Expertise', 'Journey', 'Contact'].map((item) => (
+       {['About', 'Projects', 'Services', 'Contact'].map((item) => (
           <button
             key={item}
             onClick={(e) => scrollToSection(e, item.toLowerCase())}
@@ -102,14 +94,7 @@ const agencyUrl = "https://www.seyonix.in";
             {item}
           </button>
         ))}
-        <a 
-          href={cvUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-2xl font-display font-bold text-white hover:text-brand-primary transition-all flex items-center gap-3"
-        >
-          Founder Profile <Icons.FileText />
-        </a>
+
       </div>
     </>
   );
