@@ -36,7 +36,7 @@ const Services: React.FC = () => {
           <div className="inline-block px-3 py-1 rounded bg-brand-primary/10 text-brand-primary text-[10px] font-bold tracking-widest uppercase mb-6">Our Expertise</div>
           <h2 className="font-display font-bold text-5xl md:text-6xl text-white tracking-tight">Agency Services.</h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+       <div className="max-w-md mx-auto">
           {services.map((s, i) => (
             <div key={i} className="group card-premium p-10 rounded-3xl border-brand-border hover:border-brand-primary/30 transition-all duration-500">
               <div className="text-5xl mb-8 transform group-hover:scale-110 transition-transform duration-500 inline-block">{s.icon}</div>
