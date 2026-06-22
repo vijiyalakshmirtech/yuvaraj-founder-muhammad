@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Icons } from '../constants';
+
 
 const Hero: React.FC = () => {
   const [text, setText] = useState('');
@@ -49,9 +49,11 @@ const roles = [
     <section className="relative min-h-[90vh] flex flex-col items-center justify-center pt-32 pb-20 overflow-hidden w-full px-6">
       <div className="w-full max-w-5xl mx-auto relative z-10 flex flex-col items-center text-center">
         <div className="flex items-center gap-2 px-4 py-1.5 rounded-full border border-brand-border bg-brand-surface/50 text-[11px] font-semibold tracking-wide text-brand-primary mb-10 animate-premium">
-          <span className="w-1.5 h-1.5 bg-brand-primary rounded-full animate-pulse"></span>
-          ✦ FOUNDER OF SEYONIX ✦ AI GROWTH ARCHITECT
-        </div>
+  <span className="w-1.5 h-1.5 bg-brand-primary rounded-full animate-pulse"></span>
+
+  ✦ AI GROWTH ARCHITECT • FOUNDER OF SEYONIX
+
+</div>
 
         <div className="min-h-[160px] md:min-h-[200px] lg:min-h-[250px] flex flex-col items-center justify-center">
           <h1 className="font-display font-bold text-[clamp(2.5rem,10vw,7rem)] text-white mb-4 tracking-tight leading-[1.1] animate-premium">
@@ -62,7 +64,7 @@ const roles = [
           </h1>
         </div>
         
-        <p className="max-w-xl text-lg md:text-xl text-neutral-500 font-medium mb-12 leading-relaxed animate-premium">
+      <p className="max-w-3xl text-lg md:text-xl text-neutral-400 font-medium mb-12 leading-relaxed animate-premium">
         I'm <span className="text-white">YUVARAJ RAMALINGAM</span>, Founder of <span className="text-brand-primary font-bold">SEYONIX</span>. I help businesses leverage AI, branding, digital marketing and technology to build stronger brands, generate leads and accelerate growth.
         </p>
 <div className="mb-12 text-brand-primary text-xs font-bold tracking-[0.25em] uppercase animate-premium">
@@ -78,12 +80,12 @@ const roles = [
           </button>
             <button 
             onClick={() => document.getElementById('contact')?.scrollIntoView({behavior:'smooth'})}
-            className="w-full py-4 border border-brand-border text-white font-bold text-sm rounded-xl hover:bg-white/5 transition-all hidden xs:block"
+           className="w-full py-4 border border-brand-border text-white font-bold text-sm rounded-xl hover:bg-white/5 transition-all"
           >
             Get In Touch
           </button>
         </div>
-     
+      </div>
       
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-neutral-700 animate-bounce">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
