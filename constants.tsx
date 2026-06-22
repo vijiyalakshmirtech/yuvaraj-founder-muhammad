@@ -5,12 +5,12 @@ export const PROJECTS: Project[] = [
   {
     id: 'p1',
     title: 'SEYONIX',
-    description: 'Website Development, App Development, AI Powered Ad Videos, Digital Marketing, SEO, Social Meida Marketing, Branding and Business Growth Solutions.',
-    longDescription: 'SEYONIX helps businesses leverage Artificial Intelligence, creative content, digital marketing and modern branding strategies to improve visibility, attract customers and accelerate growth.',
+    description: 'AI Powered Ad Videos, Website Development, Branding, Digital Marketing, SEO and Business Growth Systems.'
+    longDescription: 'longDescription: 'SEYONIX is an AI-first growth company helping businesses scale through AI Powered Ad Videos, Website Development, Branding, Digital Marketing and Business Growth Systems.'
     tags: ['AI Marketing', 'Branding', 'Digital Growth', 'Creative Technology'],
   imageUrl: "/seyonix-project.jpg",
     featured: true,
-   githubUrl:'#',
+   githubUrl:'https://www.seyonix.in',
     demoUrl: 'https://www.seyonix.in'
   },
  ];
@@ -19,7 +19,7 @@ export const EXPERIENCES: Experience[] = [
 id:'e1',
 company:'SEYONIX',
 role:'Founder & AI Growth Architect',
-period:'2025 - Present',
+period:'2025 — Present'
 description:[
 'Founded SEYONIX to help businesses grow through AI-powered marketing.',
 'Building AI Ad Videos, AI Posters and Digital Branding solutions.',
@@ -93,7 +93,7 @@ status:'completed'
 {
 id:'c3',
 title:'Business Growth Strategy',
-issuer:'SEYONIX',
+issuer:'Professional Development'
 date:'2026',
 description:'Business growth through branding and digital systems.',
 status:'completed'
