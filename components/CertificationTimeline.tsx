@@ -28,7 +28,9 @@ const CertificationTimeline: React.FC = () => {
                 <Icons.Award />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white group-hover:text-brand-primary transition-colors">{cert.title}</h3>
+               <h3 className="text-2xl font-display font-bold text-white group-hover:text-brand-primary transition-colors">
+  {cert.title}
+</h3>
                 <p className="text-neutral-500 font-medium mt-1">{cert.issuer}</p>
               </div>
             </div>
