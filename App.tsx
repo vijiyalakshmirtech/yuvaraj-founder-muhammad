@@ -29,7 +29,7 @@ const WelcomeLoader = ({ onComplete }: { onComplete: () => void }) => {
       <div className="flex flex-col items-center">
         <div className="relative overflow-hidden mb-6">
           <div className="text-white font-display font-bold text-5xl md:text-7xl tracking-tighter opacity-0 animate-tracking-expand">
-            Ibrahim.
+           YUVARAJ.
           </div>
         </div>
         
@@ -56,12 +56,12 @@ const WelcomeLoader = ({ onComplete }: { onComplete: () => void }) => {
 const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
   
-  const githubUrl = "https://github.com/muhammadibrahimshujasheikh12";
-  const linkedinUrl = "https://www.linkedin.com/in/muhammad-ibrahim-73484a3a5/";
-  const fiverrUrl = "https://www.fiverr.com/mbrahimshuja?public_mode=true";
-  const upworkUrl = "https://www.upwork.com/freelancers/~0189a690f05537559e";
-  const youtubeUrl = "https://www.youtube.com/@Muhammadibrahim-p9i4k";
-  const scrimbaUrl = "https://scrimba.com/?via=u432d432";
+  const githubUrl = "https://github.com/vijiyalakshmirtech";
+  const linkedinUrl = "https://www.linkedin.com/company/seyonix-in/";
+const youtubeUrl = "#";
+const fiverrUrl = "#";
+const upworkUrl = "#";
+const scrimbaUrl = "#";
 
   if (isLoading) {
     return <WelcomeLoader onComplete={() => setIsLoading(false)} />;
@@ -97,7 +97,9 @@ const App: React.FC = () => {
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
               <div className="max-w-xl">
                 <div className="inline-block px-3 py-1 rounded bg-brand-primary/10 text-brand-primary text-[10px] font-bold tracking-widest uppercase mb-6">FOUNDER VENTURES</div>
-                <h2 className="font-display font-bold text-5xl md:text-6xl text-white tracking-tight">Building Through SEYONIX.</h2>
+               <h2 className="font-display font-bold text-5xl md:text-6xl text-white tracking-tight">
+SEYONIX Growth Ecosystem.
+</h2>
               </div>
               <a href={githubUrl} target="_blank" className="text-sm font-bold text-neutral-500 hover:text-white transition-all flex items-center gap-2">
                 View all on GitHub <Icons.Github />
@@ -211,12 +213,27 @@ const App: React.FC = () => {
 
         <footer className="py-20 border-t border-brand-border px-8">
           <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
-            <div className="flex flex-col items-center md:items-start">
-               <span className="font-display font-bold text-white text-2xl mb-2">YUVARAJ RAMALINGAM.</span>
-               <p className="text-neutral-600 text-sm max-w-md text-center md:text-left leading-relaxed">
-                Founder of <span className="text-brand-primary font-bold">SEYONIX</span> | Entrepreneur | Digital Growth Strategist | AI Creative Specialist
-               </p>
-            </div>
+<div className="flex flex-col items-center md:items-start">
+
+<img
+  src="/seyonix-logo.png"
+  alt="SEYONIX"
+  className="h-16 w-auto mb-5"
+/>
+
+<span className="font-display font-bold text-white text-2xl mb-2">
+  SEYONIX
+</span>
+
+<p className="text-brand-primary text-[10px] uppercase tracking-[0.3em] mb-4">
+  WHERE CREATIVITY MEETS TECHNOLOGY
+</p>
+
+<p className="text-neutral-600 text-sm max-w-md text-center md:text-left leading-relaxed">
+  AI Powered Ad Videos • Branding • Website Development • Digital Marketing • Business Growth Systems
+</p>
+
+</div>
             <div className="flex flex-wrap gap-6 justify-center md:justify-end">
               <a href={githubUrl} target="_blank" className="text-neutral-700 hover:text-white transition-all" aria-label="GitHub"><Icons.Github /></a>
               <a href={linkedinUrl} target="_blank" className="text-neutral-700 hover:text-white transition-all" aria-label="LinkedIn"><Icons.Linkedin /></a>
@@ -224,7 +241,7 @@ const App: React.FC = () => {
               <a href={fiverrUrl} target="_blank" className="text-neutral-700 hover:text-white transition-all" aria-label="Fiverr"><Icons.Fiverr /></a>
               <a href={upworkUrl} target="_blank" className="text-neutral-700 hover:text-white transition-all" aria-label="Upwork"><Icons.Upwork /></a>
               <a href={scrimbaUrl} target="_blank" className="text-neutral-700 hover:text-white transition-all" aria-label="Scrimba Ambassador"><Icons.Scrimba /></a>
-              <a href="mailto:muhammadibrahimshuja34@gmail.com" className="text-neutral-700 hover:text-white transition-all" aria-label="Email"><Icons.Mail /></a>
+              <a href="mailto:hello@seyonix.in" className="text-neutral-700 hover:text-white transition-all" aria-label="Email"><Icons.Mail /></a>
             </div>
           </div>
           <div className="mt-20 text-center text-[10px] font-bold text-neutral-800 uppercase tracking-[0.4em]">
