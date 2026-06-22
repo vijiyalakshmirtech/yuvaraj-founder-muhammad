@@ -12,16 +12,14 @@ const Hero: React.FC = () => {
   const cvUrl = "#";
 
 const roles = [
-  "Founder",
-  "Entrepreneur",
-  "Digital Growth Strategist",
-  "AI Growth Architect",
-  "Brand Builder",
-  "AI Creative Specialist",
-  "Business Consultant",
-  "Digital Transformation Advocate",
-  "Technology Enthusiast",
-  "SEYONIX Founder"
+"Founder of SEYONIX",
+"AI Growth Architect",
+"Entrepreneur",
+"Digital Growth Strategist",
+"Brand Builder",
+"Business Growth Consultant",
+"AI Creative Specialist",
+"Digital Transformation Leader"
 ];
 
   useEffect(() => {
@@ -53,7 +51,7 @@ const roles = [
       <div className="w-full max-w-5xl mx-auto relative z-10 flex flex-col items-center text-center">
         <div className="flex items-center gap-2 px-4 py-1.5 rounded-full border border-brand-border bg-brand-surface/50 text-[11px] font-semibold tracking-wide text-brand-primary mb-10 animate-premium">
           <span className="w-1.5 h-1.5 bg-brand-primary rounded-full animate-pulse"></span>
-          ✦ FOUNDER OF SEYONIX
+          ✦ FOUNDER OF SEYONIX ✦ AI GROWTH ARCHITECT
         </div>
 
         <div className="min-h-[160px] md:min-h-[200px] lg:min-h-[250px] flex flex-col items-center justify-center">
@@ -66,28 +64,21 @@ const roles = [
         </div>
         
         <p className="max-w-xl text-lg md:text-xl text-neutral-500 font-medium mb-12 leading-relaxed animate-premium">
-        I'm <span className="text-white">YUVARAJ RAMALINGAM</span>. Founder of <span className="text-brand-primary font-bold">SEYONIX</span>, helping businesses grow through AI-powered marketing, branding, digital strategy, and creative technology.
+        I'm <span className="text-white">YUVARAJ RAMALINGAM</span>, Founder of <span className="text-brand-primary font-bold">SEYONIX</span>. I help businesses leverage AI, branding, digital marketing and technology to build stronger brands, generate leads and accelerate growth.
         </p>
+<div className="mb-12 text-brand-primary text-xs font-bold tracking-[0.25em] uppercase animate-premium">
+  Current Thesis: AI + Creativity + Execution = Business Growth
+</div>
 
+<div className="flex flex-col sm:flex-row items-center gap-4 w-full max-w-lg animate-premium">
         <div className="flex flex-col sm:flex-row items-center gap-4 w-full max-w-lg animate-premium">
           <button 
             onClick={() => document.getElementById('projects')?.scrollIntoView({behavior:'smooth'})}
             className="w-full py-4 bg-white text-black font-bold text-sm rounded-xl hover:bg-brand-primary hover:text-white transition-all shadow-xl active:scale-[0.98] flex items-center justify-center gap-2"
           >
-            Explore My Journey
+           Explore SEYONIX
           </button>
-          
-          <a 
-            href={cvUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full py-4 border border-brand-border text-white font-bold text-sm rounded-xl hover:bg-white/5 transition-all flex items-center justify-center gap-2"
-          >
-            Founder Profile
-            <Icons.FileText />
-          </a>
-
-          <button 
+            <button 
             onClick={() => document.getElementById('contact')?.scrollIntoView({behavior:'smooth'})}
             className="w-full py-4 border border-brand-border text-white font-bold text-sm rounded-xl hover:bg-white/5 transition-all hidden xs:block"
           >
