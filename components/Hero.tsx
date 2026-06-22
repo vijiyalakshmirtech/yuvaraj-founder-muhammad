@@ -48,6 +48,11 @@ const roles = [
   return (
     <section className="relative min-h-[90vh] flex flex-col items-center justify-center pt-32 pb-20 overflow-hidden w-full px-6">
       <div className="w-full max-w-5xl mx-auto relative z-10 flex flex-col items-center text-center">
+        <img
+  src="/seyonix-logo.png"
+  alt="SEYONIX"
+  className="h-24 w-auto mb-8 object-contain"
+/>
         <div className="flex items-center gap-2 px-4 py-1.5 rounded-full border border-brand-border bg-brand-surface/50 text-[11px] font-semibold tracking-wide text-brand-primary mb-10 animate-premium">
   <span className="w-1.5 h-1.5 bg-brand-primary rounded-full animate-pulse"></span>
 
