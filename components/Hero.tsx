@@ -9,7 +9,6 @@ const Hero: React.FC = () => {
   const [typingSpeed, setTypingSpeed] = useState(150);
 
   // Path to CV file exactly as requested
-  const cvUrl = "#";
 
 const roles = [
 "Founder of SEYONIX",
@@ -67,10 +66,9 @@ const roles = [
         I'm <span className="text-white">YUVARAJ RAMALINGAM</span>, Founder of <span className="text-brand-primary font-bold">SEYONIX</span>. I help businesses leverage AI, branding, digital marketing and technology to build stronger brands, generate leads and accelerate growth.
         </p>
 <div className="mb-12 text-brand-primary text-xs font-bold tracking-[0.25em] uppercase animate-premium">
-  Current Thesis: AI + Creativity + Execution = Business Growth
+  CURRENT THESIS • AI + CREATIVITY + EXECUTION = BUSINESS GROWTH
 </div>
 
-<div className="flex flex-col sm:flex-row items-center gap-4 w-full max-w-lg animate-premium">
         <div className="flex flex-col sm:flex-row items-center gap-4 w-full max-w-lg animate-premium">
           <button 
             onClick={() => document.getElementById('projects')?.scrollIntoView({behavior:'smooth'})}
@@ -85,7 +83,7 @@ const roles = [
             Get In Touch
           </button>
         </div>
-      </div>
+     
       
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-neutral-700 animate-bounce">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
