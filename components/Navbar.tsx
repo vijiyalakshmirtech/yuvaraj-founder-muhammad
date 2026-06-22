@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
           <img
             src="/seyonix-logo.png"
             alt="SEYONIX"
-            className="h-14 w-auto object-contain"
+           className="h-20 w-auto object-contain"
           />
 
           <div className="hidden md:block">
