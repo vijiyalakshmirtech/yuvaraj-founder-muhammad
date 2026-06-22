@@ -2,23 +2,22 @@ import React from 'react';
 
 const Services: React.FC = () => {
   const services = [
-    {
-      title: 'Website Development',
-      description:
-        'Premium business websites, landing pages, portfolio websites and custom web applications built to generate leads and drive growth.',
-      icon: '💻'
+{
+  title: 'Website Development',
+  description: 'Premium business websites, landing pages, portfolios and web applications built for growth.',
+  icon: '💻',
     },
     {
       title: 'AI Powered Ad Videos',
       description:
         'High-converting AI generated advertisement videos designed for brands, local businesses, products and social media campaigns.',
-      icon: '🤖'
+      icon: '🤖',
     },
     {
       title: 'Branding & Creative Design',
       description:
         'Brand identity systems, logo design, AI posters, marketing creatives and premium visual communication assets.',
-      icon: '🎨'
+      icon: '🎨',
     },
     {
       title: 'Digital Marketing & Growth',
@@ -71,11 +70,11 @@ const Services: React.FC = () => {
                 {s.description}
               </p>
 
-              <div className="mt-6 text-xs text-neutral-400 space-y-2 border-l-2 border-brand-primary/30 pl-4">
-                <p>✓ Strategy Driven</p>
-                <p>✓ Premium Execution</p>
-                <p>✓ Growth Focused</p>
-              </div>
+<div className="mt-6 text-xs text-neutral-400 space-y-2 border-l-2 border-brand-primary/30 pl-4">
+  <p>✓ Strategy Driven</p>
+  <p>✓ Premium Execution</p>
+  <p>✓ Growth Focused</p>
+</div>
             </div>
           ))}
         </div>
