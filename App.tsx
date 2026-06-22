@@ -96,7 +96,7 @@ const App: React.FC = () => {
           <section id="projects" className="py-24 md:py-32 px-6 max-w-6xl mx-auto">
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
               <div className="max-w-xl">
-                <div className="inline-block px-3 py-1 rounded bg-brand-primary/10 text-brand-primary text-[10px] font-bold tracking-widest uppercase mb-6">Software Agency</div>
+                <div className="inline-block px-3 py-1 rounded bg-brand-primary/10 text-brand-primary text-[10px] font-bold tracking-widest uppercase mb-6">FOUNDER VENTURES</div>
                 <h2 className="font-display font-bold text-5xl md:text-6xl text-white tracking-tight">Portfolio & Projects.</h2>
               </div>
               <a href={githubUrl} target="_blank" className="text-sm font-bold text-neutral-500 hover:text-white transition-all flex items-center gap-2">
