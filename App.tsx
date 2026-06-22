@@ -101,57 +101,29 @@ const scrimbaUrl = "#";
 SEYONIX Growth Ecosystem.
 </h2>
               </div>
-              <a href={githubUrl} target="_blank" className="text-sm font-bold text-neutral-500 hover:text-white transition-all flex items-center gap-2">
-                View all on GitHub <Icons.Github />
-              </a>
+<a
+  href="https://www.seyonix.in"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-sm font-bold text-neutral-500 hover:text-white transition-all flex items-center gap-2"
+>
+  Visit SEYONIX <Icons.ExternalLink />
+</a>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
               {PROJECTS.map(project => <ProjectCard key={project.id} project={project} />)}
             </div>
           </section>
-
-          {/* HIRE ME / FREELANCE PLATFORMS */}
-          <section className="py-24 md:py-32 px-6 bg-brand-surface/30 border-y border-brand-border">
-            <div className="max-w-6xl mx-auto">
-              <div className="text-center mb-20">
-                <div className="inline-block px-3 py-1 rounded bg-brand-primary/10 text-brand-primary text-[10px] font-bold tracking-widest uppercase mb-6">Hire Me</div>
-                <h2 className="font-display font-bold text-5xl md:text-6xl text-white tracking-tight">Freelance Platforms.</h2>
-                <p className="mt-6 text-neutral-500 max-w-2xl mx-auto">Available for immediate hire on the world's leading freelance marketplaces. High-quality work, guaranteed through my personal boutique agency services.</p>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                <a href={fiverrUrl} target="_blank" className="group card-premium p-10 rounded-3xl flex flex-col items-center text-center transition-all hover:border-emerald-500/50">
-                  <div className="w-20 h-20 bg-emerald-500/10 text-emerald-500 flex items-center justify-center rounded-2xl mb-8 group-hover:bg-emerald-500 group-hover:text-white transition-all">
-                    <Icons.Fiverr />
-                  </div>
-                  <h3 className="text-white font-display font-bold text-2xl mb-4">Fiverr</h3>
-                  <p className="text-neutral-500 text-sm mb-10">Hire me for fixed-price projects, UI designs, and full-stack web solutions with fast delivery.</p>
-                  <div className="mt-auto px-8 py-3 bg-white/5 border border-white/10 rounded-xl text-white font-bold text-xs uppercase tracking-widest group-hover:bg-emerald-500 group-hover:border-emerald-500 transition-all">
-                    Hire on Fiverr
-                  </div>
-                </a>
-
-                <a href={upworkUrl} target="_blank" className="group card-premium p-10 rounded-3xl flex flex-col items-center text-center transition-all hover:border-emerald-400/50">
-                  <div className="w-20 h-20 bg-emerald-400/10 text-emerald-400 flex items-center justify-center rounded-2xl mb-8 group-hover:bg-emerald-400 group-hover:text-white transition-all">
-                    <Icons.Upwork />
-                  </div>
-                  <h3 className="text-white font-display font-bold text-2xl mb-4">Upwork</h3>
-                  <p className="text-neutral-500 text-sm mb-10">Looking for long-term collaboration? Hire me on Upwork for hourly or milestone-based projects.</p>
-                  <div className="mt-auto px-8 py-3 bg-white/5 border border-white/10 rounded-xl text-white font-bold text-xs uppercase tracking-widest group-hover:bg-emerald-400 group-hover:border-emerald-400 transition-all">
-                    Hire on Upwork
-                  </div>
-                </a>
-              </div>
-            </div>
-          </section>
-
+         
           {/* SKILLS */}
           <section id="skills" className="py-24 md:py-32 px-6">
             <div className="max-w-6xl mx-auto">
               <div className="mb-20">
                 <div className="inline-block px-3 py-1 rounded bg-brand-primary/10 text-brand-primary text-[10px] font-bold tracking-widest uppercase mb-6">Expertise</div>
-                <h2 className="font-display font-bold text-5xl md:text-6xl text-white tracking-tight">Full-Stack Tech Cloud.</h2>
+                <h2 className="font-display font-bold text-5xl md:text-6xl text-white tracking-tight">
+  AI, Marketing & Growth Expertise.
+</h2>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
@@ -205,7 +177,9 @@ SEYONIX Growth Ecosystem.
             <div className="card-premium p-12 md:p-20 rounded-[2rem] text-center overflow-hidden relative border-brand-primary/20">
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-1 bg-brand-primary"></div>
               <h2 className="font-display font-bold text-5xl md:text-6xl text-white mb-6">Start a Project.</h2>
-              <p className="text-neutral-500 text-lg mb-16">Available for agency-scale solutions or direct freelance collaboration.</p>
+             <p className="text-neutral-500 text-lg mb-16">
+  Let's discuss AI Powered Ad Videos, Website Development, Branding, Digital Marketing and Business Growth Systems.
+</p>
               <ContactForm />
             </div>
           </section>
@@ -235,14 +209,19 @@ SEYONIX Growth Ecosystem.
 
 </div>
             <div className="flex flex-wrap gap-6 justify-center md:justify-end">
-              <a href={githubUrl} target="_blank" className="text-neutral-700 hover:text-white transition-all" aria-label="GitHub"><Icons.Github /></a>
-              <a href={linkedinUrl} target="_blank" className="text-neutral-700 hover:text-white transition-all" aria-label="LinkedIn"><Icons.Linkedin /></a>
-              <a href={youtubeUrl} target="_blank" className="text-neutral-700 hover:text-white transition-all" aria-label="YouTube"><Icons.Youtube /></a>
-              <a href={fiverrUrl} target="_blank" className="text-neutral-700 hover:text-white transition-all" aria-label="Fiverr"><Icons.Fiverr /></a>
-              <a href={upworkUrl} target="_blank" className="text-neutral-700 hover:text-white transition-all" aria-label="Upwork"><Icons.Upwork /></a>
-              <a href={scrimbaUrl} target="_blank" className="text-neutral-700 hover:text-white transition-all" aria-label="Scrimba Ambassador"><Icons.Scrimba /></a>
-              <a href="mailto:hello@seyonix.in" className="text-neutral-700 hover:text-white transition-all" aria-label="Email"><Icons.Mail /></a>
-            </div>
+              <a href={githubUrl} target="_blank">
+  <Icons.Github />
+</a>
+
+<a href={linkedinUrl} target="_blank">
+  <Icons.Linkedin />
+</a>
+
+<a href="mailto:hello@seyonix.in">
+  <Icons.Mail />
+</a>
+
+</div>
           </div>
           <div className="mt-20 text-center text-[10px] font-bold text-neutral-800 uppercase tracking-[0.4em]">
             &copy; {new Date().getFullYear()} YUVARAJ RAMALINGAM. ALL RIGHTS RESERVED.
