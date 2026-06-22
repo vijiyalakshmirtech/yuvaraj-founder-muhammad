@@ -8,7 +8,7 @@ export const PROJECTS: Project[] = [
     description: 'Website Development, App Development, AI Powered Ad Videos, Digital Marketing, SEO, Social Meida Marketing, Branding and Business Growth Solutions.',
     longDescription: 'SEYONIX helps businesses leverage Artificial Intelligence, creative content, digital marketing and modern branding strategies to improve visibility, attract customers and accelerate growth.',
     tags: ['AI Marketing', 'Branding', 'Digital Growth', 'Creative Technology'],
-    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2000',
+   imageUrl:'/logo1.png'
     featured: true,
    githubUrl:'#',
     demoUrl: 'https://www.seyonix.in'
