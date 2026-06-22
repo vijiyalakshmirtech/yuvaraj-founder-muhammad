@@ -7,11 +7,11 @@ interface ProjectCardProps { project: Project; }
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
     <div className="group card-premium rounded-2xl overflow-hidden flex flex-col h-full">
-      <div className="relative aspect-video overflow-hidden">
+      <div className="relative aspect-video overflow-hidden rounded-t-2xl">
         <img 
           src={project.imageUrl} 
           alt={project.title} 
-          className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
+          className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
         />
         <div className="absolute inset-0 bg-brand-dark/20 group-hover:bg-transparent transition-all"></div>
       </div>
@@ -25,14 +25,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           ))}
         </div>
 
-        <h3 className="font-display font-bold text-2xl text-white mb-4 group-hover:text-brand-primary transition-colors">
+     <h3 className="font-display font-bold text-3xl text-white mb-4 group-hover:text-brand-primary transition-colors">
           {project.title}
         </h3>
         
         <p className="text-neutral-400 text-sm leading-relaxed mb-10 flex-1">
           {project.description}
         </p>
-        <div className="mb-8 space-y-2 text-xs text-neutral-400">
+        <div className="mb-8 space-y-3 text-xs text-neutral-300 border-l-2 border-brand-primary/30 pl-4">
   <p>✓ AI Powered Ad Videos</p>
   <p>✓ Digital Marketing</p>
   <p>✓ Branding Systems</p>
