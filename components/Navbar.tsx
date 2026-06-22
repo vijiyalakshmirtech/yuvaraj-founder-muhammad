@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
           <img
-            src="/logo1.png"
+            src="/seyonix-logo.png"
             alt="SEYONIX"
             className="h-14 w-auto object-contain"
           />
