@@ -37,10 +37,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   <p>✓ Digital Marketing</p>
   <p>✓ Branding Systems</p>
   <p>✓ Website Development</p>
-  <p>✓ Business Growth</p>
+  <p>✓ Business Growth Strategy</p>
 </div>
 
-        <div className="pt-6 border-t border-brand-border flex justify-end">
+        <div className="pt-6 border-t border-brand-border flex items-center justify-between">
+            <span className="text-[10px] uppercase tracking-[0.2em] text-neutral-500">
+    SEYONIX PROJECT
+  </span>
           <a 
             href={project.demoUrl} 
             target="_blank" 
