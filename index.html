@@ -35,8 +35,14 @@ colors: {
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #081D52;
-            color: #a3a3a3;
+background:
+linear-gradient(
+180deg,
+#081D52 0%,
+#0E2F76 100%
+);
+
+color:#F4FEFF;
             margin: 0;
             overflow-x: hidden;
             scroll-behavior: smooth;
@@ -46,23 +52,48 @@ colors: {
             position: fixed;
             top: 0; left: 0; width: 100%; height: 100%;
             z-index: -1;
-            background-color: #081D52;
-            background-image: 
-                radial-gradient(circle at 50% -20%, rgba(14, 47, 118, 0.08) 0%, transparent 50%),
-                radial-gradient(circle at 0% 100%, rgba(14, 47, 118, 0.03) 0%, transparent 40%);
+           background:
+radial-gradient(
+circle at top,
+rgba(169,192,224,0.15),
+transparent 50%
+),
+
+radial-gradient(
+circle at bottom right,
+rgba(169,192,224,0.08),
+transparent 40%
+),
+
+linear-gradient(
+180deg,
+#081D52 0%,
+#0E2F76 100%
+);
         }
 
-.card-premium{
-background:rgba(169,192,224,0.05);
-border:1px solid rgba(169,192,224,0.15);
-backdrop-filter:blur(12px);
-}
+.card-premium {
+    background: rgba(169,192,224,0.05);
+
+    border: 1px solid rgba(169,192,224,0.15);
+
+    backdrop-filter: blur(12px);
+
+    transition: all 0.3s ease;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.15);
         }
 
-.card-premium:hover{
-border-color:#A9C0E0;
-transform:translateY(-5px);
-}
+.card-premium:hover {
+    border-color: #A9C0E0;
+
+    background: rgba(169,192,224,0.08);
+
+    transform: translateY(-6px);
+
+    box-shadow:
+    0 20px 40px rgba(169,192,224,0.12);
         }
 
         .text-glow {
