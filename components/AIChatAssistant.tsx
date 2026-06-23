@@ -67,7 +67,7 @@ const AIChatAssistant: React.FC = () => {
           {/* Header */}
           <div className="p-6 border-b border-brand-border flex items-center justify-between bg-neutral-900/60 backdrop-blur-xl">
             <div className="flex items-center gap-4">
-              <div className="w-10 h-10 bg-brand-primary text-white flex items-center justify-center rounded-2xl shadow-[0_0_20px_rgba(79,70,229,0.4)]">
+              <div className="w-10 h-10 bg-brand-primary text-white flex items-center justify-center rounded-2xl shadow-[0_0_25px_rgba(169,192,224,0.5)]">
                 <Icons.Bot />
               </div>
               <div>
