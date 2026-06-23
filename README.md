@@ -1,4 +1,4 @@
-# SEYONIX | Founder Portfolio & AI Growth Ecosystem
+**SEYONIX | AI Growth Company & Founder Portfolio**
 
 A high-fidelity, premium founder portfolio and business growth platform for **Yuvaraj Ramalingam**, **Founder of SEYONIX**.
 
@@ -6,12 +6,12 @@ This project showcases a sophisticated blend of AI, branding, digital marketing,
 
 ## 🚀 Key Features
 
-* **AI Business Assistant**: An intelligent chat assistant powered by **Google Gemini**, trained to answer questions about Yuvaraj Ramalingam, SEYONIX services, projects and business growth solutions.
-* **SEYONIX Growth Ecosystem**: Premium showcase of AI Powered Ad Videos, Website Development, Branding and Digital Marketing services.
+* **AI Business Assistant**: An intelligent chat assistant powered by **Google Gemini**, trained to answer questions about **Yuvaraj Ramalingam**, **SEYONIX** services, projects and business growth solutions.
+* **SEYONIX Growth Ecosystem**: Premium showcase of AI Powered Ad Videos, Website Development, SEO, Mobile App Development, Social Media Marketing, Branding and Digital Marketing services.
 * **Founder Journey & Knowledge Timeline**: Professional presentation of founder experience, certifications and expertise.
 * **Business Inquiry System**: Contact form integrated with EmailJS for client communication and lead generation.
 * **Premium User Experience**: Built with modern animations, responsive layouts, glassmorphism effects and premium visual design.
-* **Business Growth Focus**: Designed to position SEYONIX as a modern AI-powered creative and growth company.
+* **Business Growth Focus**: Designed to position **SEYONIX** as a modern AI-powered creative and growth company.
 
 ## 🛠️ Tech Stack
 
@@ -68,7 +68,8 @@ Required values:
 SEYONIX helps businesses grow through:
 
 * AI Powered Ad Videos
-* Website  & App Development
+* Website Development
+* Mobile App Development
 * Branding & Creative Design
 * Digital Marketing
 * SEO
@@ -80,7 +81,7 @@ SEYONIX helps businesses grow through:
 
 **Yuvaraj Ramalingam**
 
-**Founder • AI Growth Architect • Entrepreneur**
+**Founder • AI Growth Architect • Business Strategist**
 
 Focused on helping businesses leverage AI, creativity, branding and technology to accelerate growth and build sustainable competitive advantages.
 
