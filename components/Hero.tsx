@@ -61,7 +61,7 @@ const roles = [
 </div>
 
         <div className="min-h-[160px] md:min-h-[200px] lg:min-h-[250px] flex flex-col items-center justify-center">
-          <h1 className="font-display font-bold text-[clamp(2.5rem,10vw,7rem)] text-white mb-4 tracking-tight leading-[1.1] animate-premium">
+          <h1 className="font-display font-bold text-[clamp(2.5rem,10vw,7rem)] text-[#F4FEFF] text-glow mb-4 tracking-tight leading-[1.1] animate-premium">
             <span className="accent-gradient inline-block min-h-[1.2em]">
               {text}
               <span className="inline-block w-[4px] h-[0.8em] bg-brand-primary ml-2 animate-pulse align-middle"></span>
