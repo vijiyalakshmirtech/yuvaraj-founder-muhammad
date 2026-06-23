@@ -32,9 +32,9 @@ const Navbar: React.FC = () => {
     <>
       <nav
         className={`fixed top-6 left-1/2 -translate-x-1/2 z-[110] w-[95%] max-w-6xl px-5 sm:px-8 py-4 flex justify-between items-center transition-all duration-300 rounded-2xl border ${
-          scrolled
-            ? 'bg-brand-surface/80 border-brand-border backdrop-blur-xl shadow-2xl'
-            : 'bg-transparent border-transparent'
+scrolled
+ ? 'bg-[#081D52]/90 border-[#A9C0E0]/10 backdrop-blur-xl shadow-2xl'
+ : 'bg-transparent border-transparent'
         }`}
       >
         {/* Logo */}
@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
             <h4 className="text-white font-display font-bold text-lg leading-none">
               SEYONIX
             </h4>
-            <p className="text-brand-primary text-[10px] tracking-[0.25em] uppercase mt-1">
+            <p className="text-[#A9C0E0] text-[10px] tracking-[0.25em] uppercase mt-1">
               Where Creativity Meets Technology
             </p>
           </div>
