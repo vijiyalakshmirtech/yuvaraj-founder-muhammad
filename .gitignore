@@ -16,3 +16,15 @@ yarn-error.log*
 
 # system
 .DS_Store
+
+# vite
+.vite
+
+# vscode
+.vscode/
+
+# idea
+.idea/
+
+# cache
+.cache/
