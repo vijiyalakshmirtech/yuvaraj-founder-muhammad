@@ -84,14 +84,7 @@ description:[
 ],
 technologies:['Web Development','Technology']
 }
-  {
-id:'c5',
-title:'AI Business Growth Systems',
-issuer:'SEYONIX',
-date:'2026',
-description:'AI-powered growth systems, automation and digital business transformation.',
-status:'completed'
-}
+ 
 ];
 export const CERTIFICATIONS: Certification[] = [
 {
