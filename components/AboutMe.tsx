@@ -20,7 +20,7 @@ const AboutMe: React.FC = () => {
           <div className="flex flex-wrap gap-4">
             <div className="inline-flex items-center gap-3 px-3 py-1 rounded-full bg-brand-primary/10 border border-brand-primary/20">
               <span className="w-1.5 h-1.5 rounded-full bg-brand-primary animate-pulse"></span>
-              <span className="text-brand-primary text-[10px] font-bold tracking-widest uppercase">Founder of Seyonix</span>
+              <span className="text-[#A9C0E0] text-[10px] font-bold tracking-widest uppercase">Founder of Seyonix</span>
             </div>
           </div>
           
@@ -78,10 +78,10 @@ Today, his focus remains on creating practical, high-impact solutions that bridg
           {/* Desktop Profile Picture Spotlight */}
           <div className="hidden lg:block relative group">
             {/* Background Aura */}
-            <div className="absolute -inset-4 bg-brand-primary/10 rounded-[3rem] blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+            <div className="absolute -inset-4 bg-[#A9C0E0]/10 rounded-[3rem] blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
             
 {/* Main Picture Frame */}
-<div className="relative aspect-[3/4] rounded-[2rem] overflow-hidden border-2 border-brand-primary/40 group-hover:border-brand-primary/50 transition-all duration-500 bg-brand-surface shadow-[0_0_40px_rgba(14,47,118,0.35)]">
+<div className="relative aspect-[3/4] rounded-[2rem] overflow-hidden border-2 border-[#A9C0E0]/20 group-hover:border-[#A9C0E0]/20 transition-all duration-500 bg-brand-surface shadow-[0_0_40px_rgba(14,47,118,0.35)]">
 
   <img
     src={profilePicUrl}
