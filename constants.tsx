@@ -5,8 +5,8 @@ export const PROJECTS: Project[] = [
   {
     id: 'p1',
     title: 'SEYONIX',
-description: 'AI Powered Ad Videos, Website Development, Branding, Digital Marketing, SEO and Business Growth Systems.',
-longDescription: 'SEYONIX is an AI-first growth company helping businesses scale through AI Powered Ad Videos, Website Development, Branding, Digital Marketing and Business Growth Systems.',
+description: 'Helping businesses grow through AI Powered Ad Videos, Website Development, Branding, Digital Marketing, SEO and Business Growth Systems.',
+longDescription: 'SEYONIX is an AI-powered creative and growth company helping businesses attract customers, strengthen brands, generate leads and accelerate growth through AI, technology and strategic execution.',
 tags: [
 'AI Powered Ad Videos',
 'Website Development',
@@ -35,6 +35,7 @@ description:[
 ],
 technologies:[
 'AI Ad Videos',
+'Website Development',
 'Digital Marketing',
 'Brand Strategy',
 'Business Growth',
@@ -82,6 +83,14 @@ description:[
 'Developing scalable digital solutions.'
 ],
 technologies:['Web Development','Technology']
+}
+  {
+id:'c5',
+title:'AI Business Growth Systems',
+issuer:'SEYONIX',
+date:'2026',
+description:'AI-powered growth systems, automation and digital business transformation.',
+status:'completed'
 }
 ];
 export const CERTIFICATIONS: Certification[] = [
@@ -135,7 +144,6 @@ export const SKILLS: Skill[] = [
 { name:'Lead Generation', category:'marketing' },
 { name:'SEO', category:'marketing' },
 { name:'Meta Ads', category:'marketing' },
-  { name:'Meta Ads', category:'marketing' },
 { name:'Google Ads', category:'marketing' },
 { name:'Content Marketing', category:'marketing' },
 { name:'Conversion Optimization', category:'marketing' },
@@ -148,8 +156,6 @@ export const SKILLS: Skill[] = [
   { name:'AI Growth Systems', category:'ai' },
 { name:'Prompt Engineering', category:'ai' },
 { name:'AI Content Strategy', category:'ai' },
-  { name:'Generative AI', category:'ai' },
-{ name:'AI Marketing Automation', category:'ai' },
   { name:'Generative AI', category:'ai' },
 { name:'AI Marketing Automation', category:'ai' },
   { name:'VEO 3 Video Creation', category:'ai' },
