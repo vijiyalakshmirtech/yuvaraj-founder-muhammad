@@ -128,6 +128,15 @@ issuer:'SEYONIX',
 date:'2026',
 description:'Brand positioning, growth systems and digital marketing strategy.',
 status:'completed'
+},
+
+{
+id:'c5',
+title:'AI Business Growth Systems',
+issuer:'SEYONIX',
+date:'2026',
+description:'AI-powered growth systems, automation and digital business transformation.',
+status:'completed'
 }
 ];
 
