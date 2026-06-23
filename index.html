@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammad Ibrahim | Professional Portfolio</title>
+   <title> YUVARAJ RAMALINGAM | Founder of SEYONIX</title>
+    <meta name="description" content="YUVARAJ RAMALINGAM - Founder of SEYONIX. AI Powered Ad Videos, Branding, Website Development, Digital Marketing and Business Growth Systems.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script>
@@ -13,12 +14,14 @@
                 extend: {
 colors: {
   brand: {
+    background: '#081D52',
     primary: '#0E2F76',
-    secondary: '#A9C0E0',
+    accent: '#A9C0E0',
+    white: '#F4FEFF',
+
     dark: '#081D52',
-    surface: '#0A1638',
-    border: '#1E3A8A',
-    white: '#F4FEFF'
+    surface: '#0E2F76',
+    border: '#A9C0E0'
   }
 }
                     fontFamily: {
@@ -49,17 +52,17 @@ colors: {
                 radial-gradient(circle at 0% 100%, rgba(14, 47, 118, 0.03) 0%, transparent 40%);
         }
 
-        .card-premium {
-            background: rgba(10, 10, 10, 0.4);
-            border: 1px solid #1a1a1a;
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
+.card-premium{
+background:rgba(169,192,224,0.05);
+border:1px solid rgba(169,192,224,0.15);
+backdrop-filter:blur(12px);
+}
         }
 
-        .card-premium:hover {
-            border-color: #313131;
-            background: rgba(10, 10, 10, 0.6);
-            transform: translateY(-4px);
+.card-premium:hover{
+border-color:#A9C0E0;
+transform:translateY(-5px);
+}
         }
 
         .text-glow {
@@ -165,6 +168,5 @@ colors: {
     <div class="premium-bg"></div>
     <div id="root"></div>
     <script type="module" src="./index.tsx"></script>
-<script type="module" src="/index.tsx"></script>
 </body>
 </html>
