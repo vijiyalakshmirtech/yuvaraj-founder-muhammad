@@ -8,6 +8,9 @@ export interface Project {
   demoUrl?: string;
   githubUrl?: string;
   featured: boolean;
+
+  client?: string;
+  year?: string;
 }
 
 export interface Experience {
@@ -17,12 +20,15 @@ export interface Experience {
   period: string;
   description: string[];
   technologies: string[];
+
+  location?: string;
 }
 
 export interface Certification {
   id: string;
   title: string;
   issuer: string;
+  credentialUrl?: string;
   date: string;
   description: string;
   status: 'completed' | 'in-progress' | 'upcoming';
@@ -30,11 +36,22 @@ export interface Certification {
 
 export interface Skill {
   name: string;
-  category: 'frontend' | 'backend' | 'ai' | 'marketing' | 'creative' | 'tools' | 'personal' | 'database' | 'languages';
+  category:
+    | 'frontend'
+    | 'backend'
+    | 'ai'
+    | 'marketing'
+    | 'creative'
+    | 'tools'
+    | 'personal'
+    | 'database'
+    | 'languages';
 }
 
 export interface ChatMessage {
   role: 'user' | 'assistant';
   content: string;
   timestamp: Date;
+
+  id?: string;
 }
