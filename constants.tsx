@@ -16,7 +16,7 @@ tags: [
 ],
  imageUrl: "/seyonix-project.jpg",
     featured: true,
-   githubUrl:'githubUrl:'#',
+githubUrl:'https://github.com/vijiyalakshmirtech',
     demoUrl: 'https://www.seyonix.in'
   },
  ];
@@ -25,7 +25,7 @@ export const EXPERIENCES: Experience[] = [
 id:'e1',
 company:'SEYONIX',
 role:'Founder & AI Growth Architect',
-period:'2025 — Present',
+period:'2025 - Present',
   
 description:[
 'Founded SEYONIX to help businesses grow through AI-powered marketing.',
@@ -33,7 +33,13 @@ description:[
 'Helping local businesses improve visibility and customer acquisition.',
 'Leading business strategy, creative direction and technology integration.'
 ],
-technologies:['AI Marketing','Branding','Digital Growth','Leadership']
+technologies:[
+'AI Ad Videos',
+'Digital Marketing',
+'Brand Strategy',
+'Business Growth',
+'Leadership'
+]
 },
 
 {
@@ -101,9 +107,17 @@ status:'completed'
 id:'c3',
 title:'Business Growth Strategy',
 issuer:'Professional Development',
-  
 date:'2026',
 description:'Business growth through branding and digital systems.',
+status:'completed'
+},
+
+{
+id:'c4',
+title:'Digital Growth & Branding',
+issuer:'SEYONIX',
+date:'2026',
+description:'Brand positioning, growth systems and digital marketing strategy.',
 status:'completed'
 }
 ];
@@ -121,10 +135,25 @@ export const SKILLS: Skill[] = [
 { name:'Lead Generation', category:'marketing' },
 { name:'SEO', category:'marketing' },
 { name:'Meta Ads', category:'marketing' },
-{ name:'AI Automation', category:'ai' },
+  { name:'Meta Ads', category:'marketing' },
+{ name:'Google Ads', category:'marketing' },
+{ name:'Content Marketing', category:'marketing' },
+{ name:'Conversion Optimization', category:'marketing' },
+{ name:'Local Business Marketing', category:'marketing' },
+  { name:'Google Business Profile', category:'marketing' },
+{ name:'Instagram Growth Strategy', category:'marketing' },
+{ name:'Lead Funnel Design', category:'marketing' },
+{ name:'Brand Positioning', category:'marketing' },
+  { name:'AI Automation', category:'ai' },
   { name:'AI Growth Systems', category:'ai' },
 { name:'Prompt Engineering', category:'ai' },
 { name:'AI Content Strategy', category:'ai' },
+  { name:'Generative AI', category:'ai' },
+{ name:'AI Marketing Automation', category:'ai' },
+  { name:'Generative AI', category:'ai' },
+{ name:'AI Marketing Automation', category:'ai' },
+  { name:'VEO 3 Video Creation', category:'ai' },
+{ name:'AI Visual Storytelling', category:'ai' },
 
   // Web Development
   { name: 'HTML5', category: 'frontend' },
