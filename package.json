@@ -1,23 +1,41 @@
 {
-  "name": "muhammad-ibrahim",
+  "name": "yuvaraj-founder-portfolio",
+  "description": "Founder Portfolio of Yuvaraj Ramalingam | Founder of SEYONIX",
+  "author": "Yuvaraj Ramalingam",
+  "license": "All Rights Reserved",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
+
   "dependencies": {
-    "@google/genai": "^1.38.0",
     "@emailjs/browser": "^4.4.1",
+    "@google/genai": "^1.38.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
+
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
-  }
+  },
+
+  "keywords": [
+    "SEYONIX",
+    "Yuvaraj Ramalingam",
+    "AI Ad Videos",
+    "Digital Marketing",
+    "Website Development",
+    "Branding",
+    "SEO",
+    "Business Growth",
+    "AI Growth Architect"
+  ]
 }
