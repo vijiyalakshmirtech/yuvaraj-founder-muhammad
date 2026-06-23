@@ -1,57 +1,103 @@
+# SEYONIX | Founder Portfolio & AI Growth Ecosystem
 
-# Muhammad Ibrahim | Executive Portfolio & AI Intelligence
+A high-fidelity, premium founder portfolio and business growth platform for **Yuvaraj Ramalingam**, **Founder of SEYONIX**.
 
-A high-fidelity, professional portfolio and agency landing page for **Muhammad Ibrahim**, Founder of **DevVortex-Co**. This project showcases a sophisticated blend of modern web engineering, AI integration, and premium UI/UX design.
-
-
+This project showcases a sophisticated blend of AI, branding, digital marketing, business growth systems and premium UI/UX design.
 
 ## 🚀 Key Features
 
-- **AI Digital Concierge (Agent Ibrahim)**: An intelligent chat assistant powered by **Google Gemini 1.5 Flash**, trained to act as a professional concierge for recruiters and clients.
-- **Dynamic Project Showcase**: Executive-level cards highlighting full-stack architectures and agency-scale solutions.
-- **Career & Certification Timelines**: Professional tracking of work history and academic achievements (ACCP AI Specialist).
-- **Secure Communication Gateway**: A contact system integrated with **EmailJS** for direct, verified inquiry routing.
-- **Premium Aesthetic**: Built with a "Deep Onyx" theme, featuring glassmorphism, advanced Tailwind animations, and a "no-scroll" welcome loader.
-- **Multilingual Support**: Highlighting proficiency in English, Urdu, Arabic, and Latvian.
+* **AI Business Assistant**: An intelligent chat assistant powered by **Google Gemini**, trained to answer questions about Yuvaraj Ramalingam, SEYONIX services, projects and business growth solutions.
+* **SEYONIX Growth Ecosystem**: Premium showcase of AI Powered Ad Videos, Website Development, Branding and Digital Marketing services.
+* **Founder Journey & Knowledge Timeline**: Professional presentation of founder experience, certifications and expertise.
+* **Business Inquiry System**: Contact form integrated with EmailJS for client communication and lead generation.
+* **Premium User Experience**: Built with modern animations, responsive layouts, glassmorphism effects and premium visual design.
+* **Business Growth Focus**: Designed to position SEYONIX as a modern AI-powered creative and growth company.
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: [React 19](https://react.dev/) (ESM / No-Build architecture)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Intelligence**: [@google/genai](https://www.npmjs.com/package/@google/genai) (Gemini 3 Flash)
-- **Communications**: [EmailJS](https://www.emailjs.com/)
-- **Typography**: Space Grotesk & Inter (via Google Fonts)
+* **Frontend**: React + TypeScript
+* **Styling**: Tailwind CSS
+* **Intelligence**: @google/genai (Google Gemini)
+* **Communications**: EmailJS
+* **Build Tool**: Vite
+* **Deployment**: GitHub Pages
 
 ## ⚙️ Configuration & Setup
 
-To run this portfolio locally or deploy it, you need to configure the following environment variables or service IDs:
+To run this portfolio locally or deploy it, configure the following services.
 
 ### 1. Gemini AI Integration
+
 Ensure you have a Google AI Studio API Key.
-- **Key**: `process.env.API_KEY`
+
+* **Key**: `VITE_GEMINI_API_KEY`
 
 ### 2. EmailJS Contact Form
-The form is pre-configured with the following IDs (Update these in `components/ContactForm.tsx` if using your own account):
-- **Service ID**: `service_qmmtwjn`
-- **Template ID**: `template_s8synjg`
-- **Public Key**: `ogcjElzeQMV0_7oHb`
+
+The form is configured using EmailJS.
+
+Update the credentials inside:
+
+`components/ContactForm.tsx`
+
+Required values:
+
+* **Service ID**
+* **Template ID**
+* **Public Key**
 
 ## 📁 Project Structure
 
 ```text
-├── components/          # Reusable UI Components (Hero, Navbar, etc.)
-├── services/            # API Services (Gemini AI logic)
-├── constants.tsx        # Portfolio data (Projects, Skills, Icons)
-├── types.ts             # TypeScript interfaces
-├── App.tsx              # Main application logic
-├── index.html           # Entry point with Tailwind & ESM config
-└── index.tsx            # React DOM mounting
+├── components/          # Reusable UI Components
+├── services/            # Gemini AI Service Logic
+├── constants.tsx        # Projects, Skills, Experience & Icons
+├── types.ts             # TypeScript Interfaces
+├── App.tsx              # Main Application
+├── index.html           # Application Entry Point
+├── index.tsx            # React DOM Mounting
+└── public/              # Images & Brand Assets
 ```
 
-## 🤝 Agency & Freelance
-- **Agency**: [DevVortex-Co](https://devvortex-co.netlify.app)
-- **Fiverr**: [mbrahimshuja](https://www.fiverr.com/mbrahimshuja)
-- **Upwork**: [Muhammad Ibrahim Profile](https://www.upwork.com/freelancers/~0189a690f05537559e)
+## 🏢 About SEYONIX
+
+**SEYONIX**
+
+**WHERE CREATIVITY MEETS TECHNOLOGY**
+
+SEYONIX helps businesses grow through:
+
+* AI Powered Ad Videos
+* Website  & App Development
+* Branding & Creative Design
+* Digital Marketing
+* SEO
+* Social Media Marketing
+* Google Business Profile Optimization
+* Business Growth Systems
+
+## 👨‍💼 Founder
+
+**Yuvaraj Ramalingam**
+
+**Founder • AI Growth Architect • Entrepreneur**
+
+Focused on helping businesses leverage AI, creativity, branding and technology to accelerate growth and build sustainable competitive advantages.
+
+## 🌐 Website
+
+https://www.seyonix.in
+
+## 📩 Contact
+
+**Email:** [hello@seyonix.in](mailto:hello@seyonix.in)
+
+**Website:** https://www.seyonix.in
+
+**LinkedIn:** https://www.linkedin.com/company/seyonix-in/
 
 ## 📄 License
-This project is for personal portfolio use. All rights reserved &copy; 2025 Muhammad Ibrahim.
+
+Copyright © 2026 SEYONIX.
+
+All Rights Reserved.
