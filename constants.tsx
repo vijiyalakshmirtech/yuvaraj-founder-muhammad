@@ -5,12 +5,18 @@ export const PROJECTS: Project[] = [
   {
     id: 'p1',
     title: 'SEYONIX',
-    description: 'AI Powered Ad Videos, Website Development, Branding, Digital Marketing, SEO and Business Growth Systems.'
-    longDescription: 'longDescription: 'SEYONIX is an AI-first growth company helping businesses scale through AI Powered Ad Videos, Website Development, Branding, Digital Marketing and Business Growth Systems.'
-    tags: ['AI Marketing', 'Branding', 'Digital Growth', 'Creative Technology'],
-  imageUrl: "/seyonix-project.jpg",
+description: 'AI Powered Ad Videos, Website Development, Branding, Digital Marketing, SEO and Business Growth Systems.',
+longDescription: 'SEYONIX is an AI-first growth company helping businesses scale through AI Powered Ad Videos, Website Development, Branding, Digital Marketing and Business Growth Systems.',
+tags: [
+'AI Powered Ad Videos',
+'Website Development',
+'Branding',
+'Digital Marketing',
+'Business Growth'
+],
+ imageUrl: "/seyonix-project.jpg",
     featured: true,
-   githubUrl:'https://www.seyonix.in',
+   githubUrl:'githubUrl:'#',
     demoUrl: 'https://www.seyonix.in'
   },
  ];
@@ -19,7 +25,8 @@ export const EXPERIENCES: Experience[] = [
 id:'e1',
 company:'SEYONIX',
 role:'Founder & AI Growth Architect',
-period:'2025 — Present'
+period:'2025 — Present',
+  
 description:[
 'Founded SEYONIX to help businesses grow through AI-powered marketing.',
 'Building AI Ad Videos, AI Posters and Digital Branding solutions.',
@@ -93,7 +100,8 @@ status:'completed'
 {
 id:'c3',
 title:'Business Growth Strategy',
-issuer:'Professional Development'
+issuer:'Professional Development',
+  
 date:'2026',
 description:'Business growth through branding and digital systems.',
 status:'completed'
@@ -114,6 +122,9 @@ export const SKILLS: Skill[] = [
 { name:'SEO', category:'marketing' },
 { name:'Meta Ads', category:'marketing' },
 { name:'AI Automation', category:'ai' },
+  { name:'AI Growth Systems', category:'ai' },
+{ name:'Prompt Engineering', category:'ai' },
+{ name:'AI Content Strategy', category:'ai' },
 
   // Web Development
   { name: 'HTML5', category: 'frontend' },
@@ -171,6 +182,10 @@ export const SKILLS: Skill[] = [
   { name: 'Time Management', category: 'personal' },
   { name: 'Growth Mindset', category: 'personal' },
   { name: 'Continuous Learner', category: 'personal' },
+  { name:'Founder Leadership', category:'personal' },
+{ name:'Business Strategy', category:'personal' },
+{ name:'Creative Thinking', category:'personal' },
+{ name:'Execution Excellence', category:'personal' },
 ];
 
 export const Icons = {
