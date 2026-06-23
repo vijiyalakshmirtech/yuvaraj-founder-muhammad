@@ -29,7 +29,7 @@ const WelcomeLoader = ({ onComplete }: { onComplete: () => void }) => {
       <div className="flex flex-col items-center">
         <div className="relative overflow-hidden mb-6">
           <div className="text-white font-display font-bold text-5xl md:text-7xl tracking-tighter opacity-0 animate-tracking-expand">
-           YUVARAJ.
+           YUVARAJ RAMALINGAM
           </div>
         </div>
         
@@ -40,7 +40,7 @@ const WelcomeLoader = ({ onComplete }: { onComplete: () => void }) => {
 
         <div className="mt-8 opacity-0 animate-slide-sub">
           <span className="text-white/60 text-[10px] font-bold uppercase tracking-[0.5em]">
-            Digital Ecosystems & AI
+           AI • CREATIVITY • EXECUTION
           </span>
         </div>
       </div>
@@ -57,6 +57,7 @@ const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
   
   const githubUrl = "https://github.com/vijiyalakshmirtech";
+  const websiteUrl = "https://www.seyonix.in";
   const linkedinUrl = "https://www.linkedin.com/company/seyonix-in/";
 const youtubeUrl = "#";
 const fiverrUrl = "#";
@@ -120,7 +121,7 @@ SEYONIX Growth Ecosystem.
           <section id="skills" className="py-24 md:py-32 px-6">
             <div className="max-w-6xl mx-auto">
               <div className="mb-20">
-                <div className="inline-block px-3 py-1 rounded bg-brand-primary/10 text-brand-primary text-[10px] font-bold tracking-widest uppercase mb-6">Expertise</div>
+                <div className="inline-block px-3 py-1 rounded bg-brand-primary/10 text-brand-primary text-[10px] font-bold tracking-widest uppercase mb-6">SEYONIX EXPERTISE</div>
                 <h2 className="font-display font-bold text-5xl md:text-6xl text-white tracking-tight">
   AI, Marketing & Growth Expertise.
 </h2>
@@ -156,7 +157,7 @@ SEYONIX Growth Ecosystem.
               <div>
                 <div className="mb-16">
                   <div className="inline-block px-3 py-1 rounded bg-brand-primary/10 text-brand-primary text-[10px] font-bold tracking-widest uppercase mb-6">Timeline</div>
-                  <h2 className="font-display font-bold text-4xl md:text-5xl text-white tracking-tight">Career Journey.</h2>
+                  <h2 className="font-display font-bold text-4xl md:text-5xl text-white tracking-tight">Founder Journey.</h2>
                 </div>
                 <ExperienceTimeline />
               </div>
@@ -165,7 +166,7 @@ SEYONIX Growth Ecosystem.
               <div>
                 <div className="mb-16">
                   <div className="inline-block px-3 py-1 rounded bg-emerald-500/10 text-emerald-500 text-[10px] font-bold tracking-widest uppercase mb-6">Credentials</div>
-                  <h2 className="font-display font-bold text-4xl md:text-5xl text-white tracking-tight">Certifications.</h2>
+                  <h2 className="font-display font-bold text-4xl md:text-5xl text-white tracking-tight">Knowledge & Certifications.</h2>
                 </div>
                 <CertificationTimeline />
               </div>
@@ -176,9 +177,9 @@ SEYONIX Growth Ecosystem.
           <section id="contact" className="py-24 md:py-32 px-6 max-w-5xl mx-auto">
             <div className="card-premium p-12 md:p-20 rounded-[2rem] text-center overflow-hidden relative border-brand-primary/20">
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-1 bg-brand-primary"></div>
-              <h2 className="font-display font-bold text-5xl md:text-6xl text-white mb-6">Start a Project.</h2>
+              <h2 className="font-display font-bold text-5xl md:text-6xl text-white mb-6">Let's Build Something Remarkable.</h2>
              <p className="text-neutral-500 text-lg mb-16">
-  Let's discuss AI Powered Ad Videos, Website Development, Branding, Digital Marketing and Business Growth Systems.
+ Let's discuss your business goals and explore how SEYONIX can help you grow through AI, branding, technology and digital marketing.
 </p>
               <ContactForm />
             </div>
