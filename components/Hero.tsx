@@ -69,7 +69,7 @@ const roles = [
           </h1>
         </div>
         
-      <p className="max-w-3xl text-lg md:text-xl text-[#A9C0E0] font-medium mb-12 leading-relaxed animate-premium">
+      <p className="max-w-3xl text-lg md:text-xl text-[#A9C0E0] text-[#A9C0E0] font-medium mb-12 leading-relaxed animate-premium">
         I'm <span className="text-white">YUVARAJ RAMALINGAM</span>, Founder of <span className="text-[#F4FEFF] font-bold">SEYONIX</span>. I help businesses leverage AI, branding, digital marketing and technology to build stronger brands, generate leads and accelerate growth.
         </p>
 <div className="mb-12 px-4 py-2 border border-brand-primary/20 rounded-full text-brand-primary text-[10px] font-bold tracking-[0.25em] uppercase animate-premium">
