@@ -57,7 +57,6 @@ const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
   
   const githubUrl = "https://github.com/vijiyalakshmirtech";
-  const websiteUrl = "https://www.seyonix.in";
   const linkedinUrl = "https://www.linkedin.com/company/seyonix-in/";
 const youtubeUrl = "#";
 const fiverrUrl = "#";
