@@ -230,7 +230,7 @@ SEYONIX Growth Ecosystem.
       </div>
 
       {/* Outside the animated wrapper to ensure standard 'fixed' behavior relative to the window */}
-      <AIChatAssistant />
+    {/* <AIChatAssistant /> */}
     </div>
   );
 };
