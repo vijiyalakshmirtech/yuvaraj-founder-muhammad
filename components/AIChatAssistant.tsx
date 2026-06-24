@@ -6,13 +6,13 @@ import { getAIResponse } from '../services/geminiService';
 const AIChatAssistant: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [input, setInput] = useState('');
-  const [messages, setMessages] = useState<ChatMessage[]>([
-    {
-      role: 'assistant',
-      content: "Hello. I am the digital concierge for Muhammad Ibrahim. How may I assist you with his professional profile or agency services today?",
-      timestamp: new Date(),
-    }
-  ]);
+const [messages, setMessages] = useState<ChatMessage[]>([
+  {
+    role: 'assistant',
+    content: "Hello. I am the digital concierge for Muhammad Ibrahim. How may I assist you with his professional profile or agency services today?",
+    timestamp: new Date(),
+  }
+]);
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
