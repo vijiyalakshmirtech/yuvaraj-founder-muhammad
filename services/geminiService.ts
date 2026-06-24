@@ -81,7 +81,11 @@ Explain the AI + Creativity + Execution approach.
 export const getAIResponse = async (userInput: string, history: ChatMessage[]) => {
   try {
     // FIX: Initializing the GenAI client with API key from environment variables as per guidelines.
-    const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+   const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+
+const ai = new GoogleGenAI({
+  apiKey: API_KEY
+});
 
     const formattedHistory = history.map(msg => ({
       role: msg.role === 'assistant' ? 'model' : 'user',
