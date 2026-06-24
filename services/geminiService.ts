@@ -87,19 +87,19 @@ const ai = new GoogleGenAI({
   apiKey: API_KEY
 });
 
-    const formattedHistory = history.map(msg => ({
-      role: msg.role === 'assistant' ? 'model' : 'user',
-      parts: [{ text: msg.content }]
-    }));
+const formattedHistory = history.map(msg => ({
+  role: msg.role === 'assistant' ? 'model' : 'user',
+  parts: [{ text: msg.content }]
+}));
 
-    const chat = ai.chats.create({
-      model: "gemini-2.5-flash",
-      history: formattedHistory as any,
-      config: {
-       systemInstruction: SYSTEM_INSTRUCTION + PORTFOLIO_CONTEXT,
-        temperature: 0.3, // Lowered temperature for even more predictable, plain output.
-      },
-    });
+const chat = ai.chats.create({
+  model: "gemini-2.5-flash",
+  history: formattedHistory as any,
+  config: {
+    systemInstruction: SYSTEM_INSTRUCTION + PORTFOLIO_CONTEXT,
+    temperature: 0.3,
+  },
+});
 
     const response = await chat.sendMessage({
       message: userInput,
